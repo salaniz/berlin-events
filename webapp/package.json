@@ -1,6 +1,6 @@
 {
   "name": "berlin-events",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "An OpenData App displaying events in Berlin",
   "author": "Projektverbund Initiative 2.0 <team@ini20.de>",
   "contributors": [
