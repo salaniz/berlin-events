@@ -1,5 +1,5 @@
 {
-  "name": "events-berlin",
+  "name": "berlin-events",
   "version": "0.1",
   "dependencies": {
     "angular": "1.2.16",
