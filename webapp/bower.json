@@ -1,6 +1,6 @@
 {
-  "name": "berlin-schools",
-  "version": "2.1.0",
+  "name": "events-berlin",
+  "version": "0.1",
   "dependencies": {
     "angular": "1.2.16",
     "leaflet": "~0.7.3",
