@@ -130,10 +130,12 @@ angular.module('berlinerSchulenApp')
 					isFloat(lon)) {
 
 					// Create Marker Tooltip
-					var tooltip = '<strong>' + schools[i].Schulname + '</strong><br>';
-					tooltip += schools[i].Strasse + ', ' + schools[i].PLZ + '<br><br>';
+					var tooltip = '<strong>' + schools[i].name + '</strong><br>';
+					tooltip += 'Ort: ' + schools[i].location + ', ' + schools[i].zip + ', ' + schools[i].county + '<br>';
+					tooltip += 'Von: ' + schools[i].from + ' bis ' + schools[i].to + '<br>';
+					tooltip += 'Zeit: ' + schools[i].time + '<br><br>';
 					tooltip += '<em>' + schools[i].Schulart + '</em><br>';
-					tooltip += '<a href=#/school/' + schools[i].bsn + '>Details</a>';
+					tooltip += '<a href=#/school/' + schools[i].id + '>Details</a>';
 
 					// Using an array here b/c with push() it is easy to
 					// add new markers (object) to the array.
@@ -142,10 +144,12 @@ angular.module('berlinerSchulenApp')
 						lng: lon,
 						compileMessage: false,
 						message: tooltip,
-						bsn: schools[i].bsn,
+						bsn: schools[i].id,
 						layer: 'schools'
 					};
 
+					marker.icon = $scope.icons.bluegrey_icon
+					/*
 					//choose the icon depending on schooltype
 					switch (schools[i].Schulart) {
 						case 'Grundschule':
@@ -167,7 +171,8 @@ angular.module('berlinerSchulenApp')
 							marker.icon = $scope.icons.bluegrey_icon;
 							break;
 					}
-					$scope.data.markers[schools[i].bsn] = marker;
+					*/
+					$scope.data.markers[schools[i].id] = marker;
 				}
 			}
 		});
