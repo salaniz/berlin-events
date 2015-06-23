@@ -1,22 +1,22 @@
 {
-  "name": "berlin-schools",
-  "version": "2.1.0",
-  "description": "An OpenData App displaying schools in Berlin",
+  "name": "berlin-events",
+  "version": "0.1.0",
+  "description": "An OpenData App displaying events in Berlin",
   "author": "Projektverbund Initiative 2.0 <team@ini20.de>",
   "contributors": [
     {
-      "name": "Hans-Helge Buerger",
-      "email": "mail@hanshelgebuerger.de"
+      "name": "Stephan Alaniz",
+      "email": "stephan.alaniz@gmail.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ini20/berliner-schulen"
+    "url": "https://github.com/salaniz/berlin-events"
   },
   "keywords": [
     "opendata",
     "berlin",
-    "schools",
+    "events",
     "map"
   ],
   "license": "MIT",
