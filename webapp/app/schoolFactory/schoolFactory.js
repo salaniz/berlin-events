@@ -308,7 +308,7 @@ angular.module('berlinerSchulenApp')
 
 			schools.getJson = function () {
 
-				$http.get('data/data.json').success(function (data) {
+				$http.get('data/events.json').success(function (data) {
 					allSchools.content = data;
 					schools.content = data;
 
