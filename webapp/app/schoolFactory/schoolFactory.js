@@ -128,7 +128,6 @@ angular.module('berlinerSchulenApp')
 			 * @return Obj this
 			 */
 			schools.applyFilter = function () {
-
 				if (allSchools.content !== null) {
 					var filteredJson = allSchools.content
 							// Filter Schulname
@@ -290,7 +289,6 @@ angular.module('berlinerSchulenApp')
 						;
 
 					//schools.content = filteredJson;
-
 					schools.publishData();
 				} else {
 					return null;
