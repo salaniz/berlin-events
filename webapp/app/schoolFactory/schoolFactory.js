@@ -289,7 +289,7 @@ angular.module('berlinerSchulenApp')
 							})
 						;
 
-					schools.content = filteredJson;
+					//schools.content = filteredJson;
 
 					schools.publishData();
 				} else {
@@ -325,6 +325,7 @@ angular.module('berlinerSchulenApp')
 					if (runFilterCallback.length > 0) {
 						runFilterCallback.call(this);
 					}
+
 				});
 			};
 
