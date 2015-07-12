@@ -8,16 +8,18 @@ angular.module('berlinerSchulenApp')
 			// Initialize Filter in Front-End
 			$scope.searchFilter = {
 				main: '',
-				street: '',
+				// street: '',
 				districts: [],
-				schooltypes: [],
-				supporter: [],
-				languages: [],
-				accessibilities: [],
-				courses: [],
-				allDayCare: false,
-				dual: false,
-				secEdu: false
+        /*
+				 * schooltypes: [],
+				 * supporter: [],
+				 * languages: [],
+				 * accessibilities: [],
+				 * courses: [],
+				 * allDayCare: false,
+				 * dual: false,
+				 * secEdu: false
+         */
 			};
 
 			$scope.loading = false;
@@ -35,24 +37,28 @@ angular.module('berlinerSchulenApp')
 			$scope.resetFilter = function() {
 
 				$scope.cbDistricts.selectedDistricts = [];
-				$scope.cbSchooltypes.selectedTypes = [];
-				$scope.cbSchoolSupporter.selectedSupporter = [];
-				$scope.cbLanguages.selectedLang = [];
-				$scope.cbAccessibility.selectedAccessibilities = [];
-				$scope.cbCourses.selectedCourses = [];
+        /*
+				 * $scope.cbSchooltypes.selectedTypes = [];
+				 * $scope.cbSchoolSupporter.selectedSupporter = [];
+				 * $scope.cbLanguages.selectedLang = [];
+				 * $scope.cbAccessibility.selectedAccessibilities = [];
+				 * $scope.cbCourses.selectedCourses = [];
+         */
 
 				$scope.searchFilter = {
 					main: '',
-					street: '',
+					// street: '',
 					districts: [],
-					schooltypes: [],
-					supporter: [],
-					languages: [],
-					accessibilities: [],
-					courses: [],
-					allDayCare: false,
-					dual: false,
-					secEdu: false
+          /*
+					 * schooltypes: [],
+					 * supporter: [],
+					 * languages: [],
+					 * accessibilities: [],
+					 * courses: [],
+					 * allDayCare: false,
+					 * dual: false,
+					 * secEdu: false
+           */
 				};
 				$scope.filter();
 			};
@@ -81,181 +87,185 @@ angular.module('berlinerSchulenApp')
 				addCallback: function () {
 					$scope.cbDistricts.loading = true;
 
-					schoolFactory.addFilterCallback('Region', this.populate);
+					schoolFactory.addFilterCallback('county', this.populate);
 				}
 			};
 
-			$scope.cbSchooltypes = {
-				schooltypes: [],
+      /*
+			 * $scope.cbSchooltypes = {
+			 * 	schooltypes: [],
 
-				selectedTypes: [],
+			 * 	selectedTypes: [],
 
-				loading: false,
+			 * 	loading: false,
 
-				exec: function (values) {
-					$scope.searchFilter.schooltypes = values.newValue;
-					$scope.filter();
-				},
+			 * 	exec: function (values) {
+			 * 		$scope.searchFilter.schooltypes = values.newValue;
+			 * 		$scope.filter();
+			 * 	},
 
-				populate: function (set) {
-					var list = [];
-					for (var s in set) {
-						list.push({name: set[s]});
-					}
-					$scope.cbSchooltypes.schooltypes = orderBy(list, 'name', false);
-					$scope.cbSchooltypes.loading = false;
-				},
+			 * 	populate: function (set) {
+			 * 		var list = [];
+			 * 		for (var s in set) {
+			 * 			list.push({name: set[s]});
+			 * 		}
+			 * 		$scope.cbSchooltypes.schooltypes = orderBy(list, 'name', false);
+			 * 		$scope.cbSchooltypes.loading = false;
+			 * 	},
 
-				addCallback: function () {
-					$scope.cbSchooltypes.loading = true;
+			 * 	addCallback: function () {
+			 * 		$scope.cbSchooltypes.loading = true;
 
-					schoolFactory.addFilterCallback('Schulart', this.populate);
-				}
-			};
+			 * 		schoolFactory.addFilterCallback('Schulart', this.populate);
+			 * 	}
+			 * };
 
-			$scope.cbSchoolSupporter = {
-				supporter: [],
+			 * $scope.cbSchoolSupporter = {
+			 * 	supporter: [],
 
-				selectedSupporter: [],
+			 * 	selectedSupporter: [],
 
-				loading: false,
+			 * 	loading: false,
 
-				exec: function (values) {
-					$scope.searchFilter.supporter = values.newValue;
-					$scope.filter();
-				},
+			 * 	exec: function (values) {
+			 * 		$scope.searchFilter.supporter = values.newValue;
+			 * 		$scope.filter();
+			 * 	},
 
-				populate: function (set) {
-					var list = [];
-					for (var s in set) {
-						list.push({name: set[s]});
-					}
-					$scope.cbSchoolSupporter.supporter = orderBy(list, 'name', false);
-					$scope.cbSchoolSupporter.loading = false;
-				},
+			 * 	populate: function (set) {
+			 * 		var list = [];
+			 * 		for (var s in set) {
+			 * 			list.push({name: set[s]});
+			 * 		}
+			 * 		$scope.cbSchoolSupporter.supporter = orderBy(list, 'name', false);
+			 * 		$scope.cbSchoolSupporter.loading = false;
+			 * 	},
 
-				addCallback: function () {
-					$scope.cbSchoolSupporter.loading = true;
+			 * 	addCallback: function () {
+			 * 		$scope.cbSchoolSupporter.loading = true;
 
-					schoolFactory.addFilterCallback('Schultraeger', this.populate);
-				}
-			};
+			 * 		schoolFactory.addFilterCallback('Schultraeger', this.populate);
+			 * 	}
+			 * };
 
-			$scope.cbLanguages = {
-				languages: [
-					{name: 'Arabisch'},
-					{name: 'Chinesisch'},
-					{name: 'Englisch'},
-					{name: 'Französisch'},
-					{name: 'Griechisch'},
-					{name: 'Hebräisch'},
-					{name: 'Italienisch'},
-					{name: 'Japanisch'},
-					{name: 'Latein'},
-					{name: 'Niederländisch'},
-					{name: 'Polnisch'},
-					{name: 'Portugiesisch'},
-					{name: 'Russisch'},
-					{name: 'Spanisch'},
-					{name: 'Türkisch'}
-				],
+			 * $scope.cbLanguages = {
+			 * 	languages: [
+			 * 		{name: 'Arabisch'},
+			 * 		{name: 'Chinesisch'},
+			 * 		{name: 'Englisch'},
+			 * 		{name: 'Französisch'},
+			 * 		{name: 'Griechisch'},
+			 * 		{name: 'Hebräisch'},
+			 * 		{name: 'Italienisch'},
+			 * 		{name: 'Japanisch'},
+			 * 		{name: 'Latein'},
+			 * 		{name: 'Niederländisch'},
+			 * 		{name: 'Polnisch'},
+			 * 		{name: 'Portugiesisch'},
+			 * 		{name: 'Russisch'},
+			 * 		{name: 'Spanisch'},
+			 * 		{name: 'Türkisch'}
+			 * 	],
 
-				selectedLang: [],
+			 * 	selectedLang: [],
 
-				loading: false,
+			 * 	loading: false,
 
-				exec: function (values) {
-					$scope.searchFilter.languages = values.newValue;
-					$scope.filter();
-				},
+			 * 	exec: function (values) {
+			 * 		$scope.searchFilter.languages = values.newValue;
+			 * 		$scope.filter();
+			 * 	},
 
-				populate: function (set) {
-					var list = [];
-					for (var s in set) {
-						list.push({name: set[s]});
-					}
-					$scope.cbLanguages.languages = orderBy(list, 'name', false);
-					$scope.cbLanguages.loading = false;
-				},
+			 * 	populate: function (set) {
+			 * 		var list = [];
+			 * 		for (var s in set) {
+			 * 			list.push({name: set[s]});
+			 * 		}
+			 * 		$scope.cbLanguages.languages = orderBy(list, 'name', false);
+			 * 		$scope.cbLanguages.loading = false;
+			 * 	},
 
-				addCallback: function () {
-					$scope.cbLanguages.loading = true;
+			 * 	addCallback: function () {
+			 * 		$scope.cbLanguages.loading = true;
 
-					schoolFactory.addFilterCallback('Fremdsprachen', this.populate);
-				}
-			};
+			 * 		schoolFactory.addFilterCallback('Fremdsprachen', this.populate);
+			 * 	}
+			 * };
 
-			$scope.cbAccessibility = {
-				accessibilities: [],
+			 * $scope.cbAccessibility = {
+			 * 	accessibilities: [],
 
-				selectedAccessibilities: [],
+			 * 	selectedAccessibilities: [],
 
-				loading: false,
+			 * 	loading: false,
 
-				exec: function (values) {
-					$scope.searchFilter.accessibilities = values.newValue;
-					$scope.filter();
-				},
+			 * 	exec: function (values) {
+			 * 		$scope.searchFilter.accessibilities = values.newValue;
+			 * 		$scope.filter();
+			 * 	},
 
-				populate: function (set) {
-					var list = [];
-					for (var s in set) {
-						if (set[s] !== '') {
-							list.push({name: set[s]});
-						}
-					}
+			 * 	populate: function (set) {
+			 * 		var list = [];
+			 * 		for (var s in set) {
+			 * 			if (set[s] !== '') {
+			 * 				list.push({name: set[s]});
+			 * 			}
+			 * 		}
 
-					$scope.cbAccessibility.accessibilities = orderBy(list, 'name', false);
-					$scope.cbAccessibility.loading = false;
-				},
+			 * 		$scope.cbAccessibility.accessibilities = orderBy(list, 'name', false);
+			 * 		$scope.cbAccessibility.loading = false;
+			 * 	},
 
-				addCallback: function () {
-					$scope.cbAccessibility.loading = true;
+			 * 	addCallback: function () {
+			 * 		$scope.cbAccessibility.loading = true;
 
-					schoolFactory.addFilterCallback('Bauten', this.populate);
-				}
-			};
+			 * 		schoolFactory.addFilterCallback('Bauten', this.populate);
+			 * 	}
+			 * };
 
-			$scope.cbCourses = {
-				courses: [],
+			 * $scope.cbCourses = {
+			 * 	courses: [],
 
-				selectedCourses: [],
+			 * 	selectedCourses: [],
 
-				loading: false,
+			 * 	loading: false,
 
-				exec: function (values) {
-					$scope.searchFilter.courses = values.newValue;
-					$scope.filter();
-				},
+			 * 	exec: function (values) {
+			 * 		$scope.searchFilter.courses = values.newValue;
+			 * 		$scope.filter();
+			 * 	},
 
-				populate: function (set) {
-					var list = [];
-					for (var s in set) {
-						if (set[s] !== '') {
-							list.push({name: set[s]});
-						}
-					}
+			 * 	populate: function (set) {
+			 * 		var list = [];
+			 * 		for (var s in set) {
+			 * 			if (set[s] !== '') {
+			 * 				list.push({name: set[s]});
+			 * 			}
+			 * 		}
 
-					$scope.cbCourses.courses = orderBy(list, 'name', false);
-					$scope.cbCourses.loading = false;
-				},
+			 * 		$scope.cbCourses.courses = orderBy(list, 'name', false);
+			 * 		$scope.cbCourses.loading = false;
+			 * 	},
 
-				addCallback: function () {
-					$scope.cbCourses.loading = true;
+			 * 	addCallback: function () {
+			 * 		$scope.cbCourses.loading = true;
 
-					schoolFactory.addFilterCallback('Leistungskurse', this.populate);
-				}
-			};
+			 * 		schoolFactory.addFilterCallback('Leistungskurse', this.populate);
+			 * 	}
+			 * };
+       */
 
 			this.setSearchFilter = function( filter ) {
 				$scope.searchFilter = filter;
 
 				$scope.cbDistricts.selectedDistricts = filter.districts;
-				$scope.cbSchooltypes.selectedTypes = filter.schooltypes;
-				$scope.cbSchoolSupporter.selectedSupporter = filter.supporter;
-				$scope.cbLanguages.selectedLang = filter.languages;
-				$scope.cbAccessibility.selectedAccessibilities = filter.accessibilities;
-				$scope.cbCourses.selectedCourses = filter.courses;
+        /*
+				 * $scope.cbSchooltypes.selectedTypes = filter.schooltypes;
+				 * $scope.cbSchoolSupporter.selectedSupporter = filter.supporter;
+				 * $scope.cbLanguages.selectedLang = filter.languages;
+				 * $scope.cbAccessibility.selectedAccessibilities = filter.accessibilities;
+				 * $scope.cbCourses.selectedCourses = filter.courses;
+         */
 			};
 
 
@@ -266,29 +276,31 @@ angular.module('berlinerSchulenApp')
 
 				if (schoolFactory.hasData()) {
 					// Get Select Box Choices
-					var set = schoolFactory.getChoiceByName('Region');
+					var set = schoolFactory.getChoiceByName('county');
 					$scope.cbDistricts.populate(set);
+          /*
+					 * set = schoolFactory.getChoiceByName('Schultraeger');
+					 * $scope.cbSchoolSupporter.populate(set);
 
-					set = schoolFactory.getChoiceByName('Schultraeger');
-					$scope.cbSchoolSupporter.populate(set);
+					 * set = schoolFactory.getChoiceByName('Bauten');
+					 * $scope.cbAccessibility.populate(set);
 
-					set = schoolFactory.getChoiceByName('Bauten');
-					$scope.cbAccessibility.populate(set);
+					 * set = schoolFactory.getChoiceByName('Leistungskurse');
+					 * $scope.cbCourses.populate(set);
 
-					set = schoolFactory.getChoiceByName('Leistungskurse');
-					$scope.cbCourses.populate(set);
-
-					set = schoolFactory.getChoiceByName('Schulart');
-					$scope.cbSchooltypes.populate(set);
-
+					 * set = schoolFactory.getChoiceByName('Schulart');
+					 * $scope.cbSchooltypes.populate(set);
+           */
 					//If school data is already loaded just apply filter
 					$scope.filter();
 				} else {
 					$scope.cbDistricts.addCallback();
-					$scope.cbSchoolSupporter.addCallback();
-					$scope.cbAccessibility.addCallback();
-					$scope.cbCourses.addCallback();
-					$scope.cbSchooltypes.addCallback();
+          /*
+					 * $scope.cbSchoolSupporter.addCallback();
+					 * $scope.cbAccessibility.addCallback();
+					 * $scope.cbCourses.addCallback();
+					 * $scope.cbSchooltypes.addCallback();
+           */
 					// else set the filter and wait. The schoolFactory will load
 					// the data and then apply the filter
 

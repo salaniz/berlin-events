@@ -92,9 +92,9 @@ angular.module('berlinerSchulenApp')
 
 		$scope.loadSchool = function(school) {
 
-			if (school.bsn === undefined ) {
+			if (school.id === undefined ) {
 				LxProgressService.circular.hide();
-				$scope.school.bsn = $stateParams.BSN;
+				$scope.school.id = $stateParams.ID;
 				$scope.err = true;
 				return 0;
 			}
@@ -105,10 +105,10 @@ angular.module('berlinerSchulenApp')
 			$scope.school = school;
 
 				// Prefix Phone with (030)
-				$scope.school.Telefon = '(030) ' + school.Telefon;
+				$scope.school.tel = school.tel;
 
 				// Build addresse
-				$scope.school.Adresse = school.Strasse + ', ' + school.PLZ + ' Berlin';
+				$scope.school.location = school.location;
 
 				var latitude;
 				var longitude;
@@ -123,26 +123,29 @@ angular.module('berlinerSchulenApp')
 					//choose the icon depending on schooltype
 
 					var newIcon = null;
-					switch(school.Schulart){
-						case 'Grundschule':
-							newIcon = $scope.icons.orange_icon;
-							break;
-						case 'Integrierte Sekundarschule':
-							newIcon = $scope.icons.blue_icon;
-							break;
-						case 'Gymnasium':
-							newIcon = $scope.icons.cyan_icon;
-							break;
-						case 'Berufsschule':
-						case 'Berufsfachschule':
-						case 'Berufsschule mit sonderpäd. Aufgaben':
-						case 'Kombinierte berufliche Schule':
-							newIcon = $scope.icons.green_icon;
-							break;
-						default:
-							newIcon = $scope.icons.bluegrey_icon;
-							break;
-					}
+					newIcon = $scope.icons.blue_icon;
+          /*
+					 * switch(school.Schulart){
+					 * 	case 'Grundschule':
+					 * 		newIcon = $scope.icons.orange_icon;
+					 * 		break;
+					 * 	case 'Integrierte Sekundarschule':
+					 * 		newIcon = $scope.icons.blue_icon;
+					 * 		break;
+					 * 	case 'Gymnasium':
+					 * 		newIcon = $scope.icons.cyan_icon;
+					 * 		break;
+					 * 	case 'Berufsschule':
+					 * 	case 'Berufsfachschule':
+					 * 	case 'Berufsschule mit sonderpäd. Aufgaben':
+					 * 	case 'Kombinierte berufliche Schule':
+					 * 		newIcon = $scope.icons.green_icon;
+					 * 		break;
+					 * 	default:
+					 * 		newIcon = $scope.icons.bluegrey_icon;
+					 * 		break;
+					 * }
+           */
 
 				angular.extend($scope.data.markers.m1, {
 					icon: newIcon
@@ -153,8 +156,8 @@ angular.module('berlinerSchulenApp')
 
 		this.addCallback = function() {
 			$scope.school = {};
-			var bsn = $stateParams.BSN;
-			schoolFactory.addSchoolCallback(bsn, $scope.loadSchool);
+			var id = $stateParams.ID;
+			schoolFactory.addSchoolCallback(id, $scope.loadSchool);
 		};
 
 		LxProgressService.circular.show('#5fa2db', '#feedback');

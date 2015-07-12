@@ -141,7 +141,7 @@ angular.module('berlinerSchulenApp')
 						lng: lon,
 						compileMessage: false,
 						message: tooltip,
-						bsn: schools[i].id,
+						id: schools[i].id,
 						layer: 'schools'
 					};
 
@@ -193,13 +193,13 @@ angular.module('berlinerSchulenApp')
 		 * This centers the map to the provided coordinates and
 		 * shows a pop over
 		 */
-		var mapCenterRequest = $scope.$on('mapCenterRequest', function (sender, lat, lon, bsn) {
+		var mapCenterRequest = $scope.$on('mapCenterRequest', function (sender, lat, lon, id) {
 			sender.currentScope.berlin.lat = lat;
 			sender.currentScope.berlin.lng = lon;
 
 			for(var i in sender.currentScope.data.markers) {
 				var marker = sender.currentScope.data.markers[i];
-				if(marker.bsn === bsn) {
+				if(marker.id === id) {
 					marker.focus = true;
 					break;
 				}
