@@ -1,9 +1,7 @@
 'use strict';
 
 angular.module('berlinerSchulenApp')
-	.controller('MapCtrl', ['$scope', '$rootScope', '$timeout', 'schoolFactory', '$window',
-		function ($scope, $rootScope, $timeout, schoolFactory, $window) {
-
+	.controller('MapCtrl', ['$scope', '$rootScope', '$timeout', 'schoolFactory', '$window', function ($scope, $rootScope, $timeout, schoolFactory, $window) { 
 		/* This is our Map setup.
 		 *
 		 * It uses the OSM tiles and is set to zoom 14.
@@ -134,7 +132,6 @@ angular.module('berlinerSchulenApp')
 					tooltip += 'Ort: ' + schools[i].location + ', ' + schools[i].zip + ', ' + schools[i].county + '<br>';
 					tooltip += 'Von: ' + schools[i].from + ' bis ' + schools[i].to + '<br>';
 					tooltip += 'Zeit: ' + schools[i].time + '<br><br>';
-					tooltip += '<em>' + schools[i].Schulart + '</em><br>';
 					tooltip += '<a href=#/school/' + schools[i].id + '>Details</a>';
 
 					// Using an array here b/c with push() it is easy to
@@ -144,7 +141,7 @@ angular.module('berlinerSchulenApp')
 						lng: lon,
 						compileMessage: false,
 						message: tooltip,
-						bsn: schools[i].id,
+						id: schools[i].id,
 						layer: 'schools'
 					};
 
@@ -196,13 +193,13 @@ angular.module('berlinerSchulenApp')
 		 * This centers the map to the provided coordinates and
 		 * shows a pop over
 		 */
-		var mapCenterRequest = $scope.$on('mapCenterRequest', function (sender, lat, lon, bsn) {
+		var mapCenterRequest = $scope.$on('mapCenterRequest', function (sender, lat, lon, id) {
 			sender.currentScope.berlin.lat = lat;
 			sender.currentScope.berlin.lng = lon;
 
 			for(var i in sender.currentScope.data.markers) {
 				var marker = sender.currentScope.data.markers[i];
-				if(marker.bsn === bsn) {
+				if(marker.id === id) {
 					marker.focus = true;
 					break;
 				}

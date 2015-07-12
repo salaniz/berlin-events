@@ -15,17 +15,19 @@ angular.module('berlinerSchulenApp')
 
 			schools.initFilter = function () {
 				return {
-					main: '',
-					street: '',
+          main: '',
+					// street: '',
 					districts: [],
-					schooltypes: [],
-					supporter: [],
-					languages: [],
-					accessibilities: [],
-					courses: [],
-					allDayCare: false,
-					dual: false,
-					secEdu: false,
+          /*
+					 * schooltypes: [],
+					 * supporter: [],
+					 * languages: [],
+					 * accessibilities: [],
+					 * courses: [],
+					 * allDayCare: false,
+					 * dual: false,
+					 * secEdu: false,
+           */
 				};
 			};
 
@@ -33,8 +35,8 @@ angular.module('berlinerSchulenApp')
 				filterCallbacks.push({field: field, cb: callback});
 			};
 
-			schools.addSchoolCallback = function (bsn, callback) {
-				schoolCallback.push({bsn: bsn, cb: callback});
+			schools.addSchoolCallback = function (id, callback) {
+				schoolCallback.push({id: id, cb: callback});
 			};
 
 			schools.addRunFilterCallback = function (cb) {
@@ -68,45 +70,49 @@ angular.module('berlinerSchulenApp')
 							}
 							break;
 
-						case 'street':
-							filter.street = filterProp.street;
-							break;
+            /*
+						 * case 'street':
+						 * 	filter.street = filterProp.street;
+						 * 	break;
+             */
 
 						case 'districts':
 							filter.districts = filterProp.districts;
 							break;
 
-						case 'supporter':
-							filter.supporter = filterProp.supporter;
-							break;
+            /*
+						 * case 'supporter':
+						 * 	filter.supporter = filterProp.supporter;
+						 * 	break;
 
-						case 'allDayCare':
-							filter.allDayCare = filterProp.allDayCare;
-							break;
+						 * case 'allDayCare':
+						 * 	filter.allDayCare = filterProp.allDayCare;
+						 * 	break;
 
-						case 'secEdu':
-							filter.secEdu = filterProp.secEdu;
-							break;
+						 * case 'secEdu':
+						 * 	filter.secEdu = filterProp.secEdu;
+						 * 	break;
 
-						case 'dual':
-							filter.dual = filterProp.dual;
-							break;
+						 * case 'dual':
+						 * 	filter.dual = filterProp.dual;
+						 * 	break;
 
-						case 'languages':
-							filter.languages = filterProp.languages;
-							break;
+						 * case 'languages':
+						 * 	filter.languages = filterProp.languages;
+						 * 	break;
 
-						case 'accessibilities':
-							filter.accessibilities = filterProp.accessibilities;
-							break;
+						 * case 'accessibilities':
+						 * 	filter.accessibilities = filterProp.accessibilities;
+						 * 	break;
 
-						case 'courses':
-							filter.courses = filterProp.courses;
-							break;
+						 * case 'courses':
+						 * 	filter.courses = filterProp.courses;
+						 * 	break;
 
-						case 'schooltypes':
-							filter.schooltypes = filterProp.schooltypes;
-							break;
+						 * case 'schooltypes':
+						 * 	filter.schooltypes = filterProp.schooltypes;
+						 * 	break;
+             */
 					}
 
 				}
@@ -128,35 +134,36 @@ angular.module('berlinerSchulenApp')
 			 * @return Obj this
 			 */
 			schools.applyFilter = function () {
-
 				if (allSchools.content !== null) {
 					var filteredJson = allSchools.content
-							// Filter Schulname
-							.filter(function (row) {
-								if (row.Schulname !== undefined)
-								{
-									var name = row.Schulname.toLowerCase();
-									if(name.indexOf(filter.main) > -1) {
-										return true;
-									}
-								}
-								return false;
-							})
-							// Filter Straße
-							.filter(function (row) {
-								if (row.Strasse !== undefined &&
-									row.Strasse.indexOf(filter.street) > -1) {
-									return true;
-								} else {
-									return false;
-								}
-							})
+              /*
+							 * // Filter Schulname
+							 * .filter(function (row) {
+							 * 	if (row.Schulname !== undefined)
+							 * 	{
+							 * 		var name = row.Schulname.toLowerCase();
+							 * 		if(name.indexOf(filter.main) > -1) {
+							 * 			return true;
+							 * 		}
+							 * 	}
+							 * 	return false;
+							 * })
+							 * // Filter Straße
+							 * .filter(function (row) {
+							 * 	if (row.Strasse !== undefined &&
+							 * 		row.Strasse.indexOf(filter.street) > -1) {
+							 * 		return true;
+							 * 	} else {
+							 * 		return false;
+							 * 	}
+							 * })
+               */
 							// Filter Bezirk (Region)
 							.filter(function (row) {
 								if (filter.districts.length > 0) {
 									for (var dist in filter.districts) {
 										var distName = filter.districts[dist].name;
-										if (distName !== '' && row.Region.indexOf(distName) > -1) {
+										if (distName !== '' && row.county.indexOf(distName) > -1) {
 											return true;
 										}
 									}
@@ -165,132 +172,133 @@ angular.module('berlinerSchulenApp')
 									return true;
 								}
 							})
-							// Filter Schulträger (öffentlich|privat)
-							.filter(function (row) {
-								if (filter.supporter.length > 0) {
-									for (var sup in filter.supporter) {
-										var supName = filter.supporter[sup].name;
-										if (supName !== '' && row.Schultraeger.toLowerCase().indexOf(supName.toLowerCase()) > -1) {
-											return true;
-										}
-									}
-									return false;
-								} else {
-									return true;
-								}
-							})
-							// Filter Ganztagsbetrieb
-							.filter(function (row) {
-								if (filter.allDayCare === true) {
-									if (row.Ganztagsbetrieb !== undefined ||
-										(row.spez_Angebote !== undefined && row.spez_Angebote.toLowerCase().indexOf('ganztagsschule') > -1)) {
-										return true;
-									} else {
-										return false;
-									}
-								} else {
-									return true;
-								}
-							})
-							// Filter zweiter Bildungsweg
-							.filter(function (row) {
-								if (filter.secEdu === true) {
-									if (row.ZweiterBildungsweg !== undefined) {
-										return true;
-									} else {
-										return false;
-									}
-								} else {
-									return true;
-								}
-							})
-							// Filter Duales Lernen
-							.filter(function (row) {
-								if (filter.dual === true) {
-									if (row.DualesLernen !== undefined) {
-										return true;
-									} else {
-										return false;
-									}
-								} else {
-									return true;
-								}
-							})
-							// Filter Fremdsprachen
-							.filter(function (row) {
-								if (filter.languages.length > 0) {
-									for (var sup in filter.languages) {
-										var supName = filter.languages[sup].name.toLowerCase();
-										if (supName !== '' &&
-											row.Fremdsprachen !== undefined) {
-											for (var i = row.Fremdsprachen.length - 1; i >= 0; i--) {
-												if (row.Fremdsprachen[i].toLowerCase().indexOf(supName) > -1) {
-													return true;
-												}
-											}
-										}
-									}
-									return false;
-								} else {
-									return true;
-								}
-							})
-							// Filter Barrierefreiheit
-							.filter(function (row) {
-								if (filter.accessibilities.length > 0) {
-									for (var acc in filter.accessibilities) {
-										var accName = filter.accessibilities[acc].name.toLowerCase();
-										if (accName !== '' &&
-											row.Bauten !== undefined) {
-											for (var i = row.Bauten.length - 1; i >= 0; i--) {
-												if (row.Bauten[i].toLowerCase().indexOf(accName) > -1) {
-													return true;
-												}
-											}
-										}
-									}
-									return false;
-								} else {
-									return true;
-								}
-							})
-							// Filter Leistungskurse
-							.filter(function (row) {
-								if (filter.courses.length > 0) {
-									for (var course in filter.courses) {
-										var courseName = filter.courses[course].name.toLowerCase();
-										if (courseName !== '' &&
-											row.Leistungskurse !== undefined) {
-											for (var i = row.Leistungskurse.length - 1; i >= 0; i--) {
-												if (row.Leistungskurse[i].toLowerCase().indexOf(courseName) > -1) {
-													return true;
-												}
-											}
-										}
-									}
-									return false;
-								} else {
-									return true;
-								}
-							})
-							// Filter Schulart
-							.filter(function (row) {
-								if (filter.schooltypes.length > 0) {
-									for (var type in filter.schooltypes) {
-										var typeName = filter.schooltypes[type].name;
-										if (typeName !== '' && row.Schulart.indexOf(typeName) > -1) {
-											return true;
-										}
-									}
-									return false;
-								} else {
-									return true;
-								}
-							})
+              /*
+							 * // Filter Schulträger (öffentlich|privat)
+							 * .filter(function (row) {
+							 * 	if (filter.supporter.length > 0) {
+							 * 		for (var sup in filter.supporter) {
+							 * 			var supName = filter.supporter[sup].name;
+							 * 			if (supName !== '' && row.Schultraeger.toLowerCase().indexOf(supName.toLowerCase()) > -1) {
+							 * 				return true;
+							 * 			}
+							 * 		}
+							 * 		return false;
+							 * 	} else {
+							 * 		return true;
+							 * 	}
+							 * })
+							 * // Filter Ganztagsbetrieb
+							 * .filter(function (row) {
+							 * 	if (filter.allDayCare === true) {
+							 * 		if (row.Ganztagsbetrieb !== undefined ||
+							 * 			(row.spez_Angebote !== undefined && row.spez_Angebote.toLowerCase().indexOf('ganztagsschule') > -1)) {
+							 * 			return true;
+							 * 		} else {
+							 * 			return false;
+							 * 		}
+							 * 	} else {
+							 * 		return true;
+							 * 	}
+							 * })
+							 * // Filter zweiter Bildungsweg
+							 * .filter(function (row) {
+							 * 	if (filter.secEdu === true) {
+							 * 		if (row.ZweiterBildungsweg !== undefined) {
+							 * 			return true;
+							 * 		} else {
+							 * 			return false;
+							 * 		}
+							 * 	} else {
+							 * 		return true;
+							 * 	}
+							 * })
+							 * // Filter Duales Lernen
+							 * .filter(function (row) {
+							 * 	if (filter.dual === true) {
+							 * 		if (row.DualesLernen !== undefined) {
+							 * 			return true;
+							 * 		} else {
+							 * 			return false;
+							 * 		}
+							 * 	} else {
+							 * 		return true;
+							 * 	}
+							 * })
+							 * // Filter Fremdsprachen
+							 * .filter(function (row) {
+							 * 	if (filter.languages.length > 0) {
+							 * 		for (var sup in filter.languages) {
+							 * 			var supName = filter.languages[sup].name.toLowerCase();
+							 * 			if (supName !== '' &&
+							 * 				row.Fremdsprachen !== undefined) {
+							 * 				for (var i = row.Fremdsprachen.length - 1; i >= 0; i--) {
+							 * 					if (row.Fremdsprachen[i].toLowerCase().indexOf(supName) > -1) {
+							 * 						return true;
+							 * 					}
+							 * 				}
+							 * 			}
+							 * 		}
+							 * 		return false;
+							 * 	} else {
+							 * 		return true;
+							 * 	}
+							 * })
+							 * // Filter Barrierefreiheit
+							 * .filter(function (row) {
+							 * 	if (filter.accessibilities.length > 0) {
+							 * 		for (var acc in filter.accessibilities) {
+							 * 			var accName = filter.accessibilities[acc].name.toLowerCase();
+							 * 			if (accName !== '' &&
+							 * 				row.Bauten !== undefined) {
+							 * 				for (var i = row.Bauten.length - 1; i >= 0; i--) {
+							 * 					if (row.Bauten[i].toLowerCase().indexOf(accName) > -1) {
+							 * 						return true;
+							 * 					}
+							 * 				}
+							 * 			}
+							 * 		}
+							 * 		return false;
+							 * 	} else {
+							 * 		return true;
+							 * 	}
+							 * })
+							 * // Filter Leistungskurse
+							 * .filter(function (row) {
+							 * 	if (filter.courses.length > 0) {
+							 * 		for (var course in filter.courses) {
+							 * 			var courseName = filter.courses[course].name.toLowerCase();
+							 * 			if (courseName !== '' &&
+							 * 				row.Leistungskurse !== undefined) {
+							 * 				for (var i = row.Leistungskurse.length - 1; i >= 0; i--) {
+							 * 					if (row.Leistungskurse[i].toLowerCase().indexOf(courseName) > -1) {
+							 * 						return true;
+							 * 					}
+							 * 				}
+							 * 			}
+							 * 		}
+							 * 		return false;
+							 * 	} else {
+							 * 		return true;
+							 * 	}
+							 * })
+							 * // Filter Schulart
+							 * .filter(function (row) {
+							 * 	if (filter.schooltypes.length > 0) {
+							 * 		for (var type in filter.schooltypes) {
+							 * 			var typeName = filter.schooltypes[type].name;
+							 * 			if (typeName !== '' && row.Schulart.indexOf(typeName) > -1) {
+							 * 				return true;
+							 * 			}
+							 * 		}
+							 * 		return false;
+							 * 	} else {
+							 * 		return true;
+							 * 	}
+							 * })
+               */
 						;
 
-					//schools.content = filteredJson;
-
+					schools.content = filteredJson;
 					schools.publishData();
 				} else {
 					return null;
@@ -345,35 +353,36 @@ angular.module('berlinerSchulenApp')
 
 
 						switch (field) {
-							case 'Region':
-								if (school.Region !== undefined) {
-									value = school.Region;
+							case 'county':
+								if (school.county !== undefined) {
+									value = school.county;
 								}
 								break;
+              /*
+							 * case 'Schultraeger':
+							 * 	if (school.Schultraeger !== undefined) {
+							 * 		value = school.Schultraeger;
+							 * 	}
+							 * 	break;
 
-							case 'Schultraeger':
-								if (school.Schultraeger !== undefined) {
-									value = school.Schultraeger;
-								}
-								break;
+							 * case 'Bauten':
+							 * 	if (school.Bauten !== undefined) {
+							 * 		value = school.Bauten;
+							 * 	}
+							 * 	break;
 
-							case 'Bauten':
-								if (school.Bauten !== undefined) {
-									value = school.Bauten;
-								}
-								break;
+							 * case 'Leistungskurse':
+							 * 	if (school.Leistungskurse !== undefined) {
+							 * 		value = school.Leistungskurse;
+							 * 	}
+							 * 	break;
 
-							case 'Leistungskurse':
-								if (school.Leistungskurse !== undefined) {
-									value = school.Leistungskurse;
-								}
-								break;
-
-							case 'Schulart':
-								if (school.Schulart !== undefined) {
-									value = school.Schulart;
-								}
-								break;
+							 * case 'Schulart':
+							 * 	if (school.Schulart !== undefined) {
+							 * 		value = school.Schulart;
+							 * 	}
+							 * 	break;
+               */
 
 							default:
 								value = '';
@@ -400,25 +409,27 @@ angular.module('berlinerSchulenApp')
 
 			schools.saveChoices = function (field, set) {
 				switch (field) {
-					case 'Region':
-						selectChoices.Region = set;
+					case 'county':
+						selectChoices.county = set;
 						break;
 
-					case 'Schultraeger':
-						selectChoices.Schultraeger = set;
-						break;
+          /*
+					 * case 'Schultraeger':
+					 * 	selectChoices.Schultraeger = set;
+					 * 	break;
 
-					case 'Bauten':
-						selectChoices.Bauten = set;
-						break;
+					 * case 'Bauten':
+					 * 	selectChoices.Bauten = set;
+					 * 	break;
 
-					case 'Leistungskurse':
-						selectChoices.Leistungskurse = set;
-						break;
+					 * case 'Leistungskurse':
+					 * 	selectChoices.Leistungskurse = set;
+					 * 	break;
 
-					case 'Schulart':
-						selectChoices.Schulart = set;
-						break;
+					 * case 'Schulart':
+					 * 	selectChoices.Schulart = set;
+					 * 	break;
+           */
 
 					default:
 						break;
@@ -427,20 +438,22 @@ angular.module('berlinerSchulenApp')
 
 			schools.getChoiceByName = function (field) {
 				switch (field) {
-					case 'Region':
-						return selectChoices.Region;
+					case 'county':
+						return selectChoices.county;
 
-					case 'Schultraeger':
-						return selectChoices.Schultraeger;
+          /*
+					 * case 'Schultraeger':
+					 * 	return selectChoices.Schultraeger;
 
-					case 'Bauten':
-						return selectChoices.Bauten;
+					 * case 'Bauten':
+					 * 	return selectChoices.Bauten;
 
-					case 'Leistungskurse':
-						return selectChoices.Leistungskurse;
+					 * case 'Leistungskurse':
+					 * 	return selectChoices.Leistungskurse;
 
-					case 'Schulart':
-						return selectChoices.Schulart;
+					 * case 'Schulart':
+					 * 	return selectChoices.Schulart;
+           */
 
 					default:
 						return [];
@@ -450,16 +463,16 @@ angular.module('berlinerSchulenApp')
 			schools.populateSchoolDetails = function () {
 				if (allSchools.content !== null) {
 					for (var i = schoolCallback.length - 1; i >= 0; i--) {
-						var bsn = schoolCallback[i].bsn;
-						var school = schools.getSchoolByBSN(bsn);
+						var id = schoolCallback[i].id;
+						var school = schools.getSchoolByID(id);
 						schoolCallback[i].cb.call(this, school);
 					}
 				}
 			};
 
-			schools.getSchoolByBSN = function (bsn) {
+			schools.getSchoolByID = function (id) {
 				for (var i = allSchools.content.length - 1; i >= 0; i--) {
-					if (allSchools.content[i].bsn === bsn) {
+					if (allSchools.content[i].id === id) {
 						return allSchools.content[i];
 					}
 				}
