@@ -7,7 +7,14 @@ angular.module('berlinerSchulenApp', [
 	'lumx']);
 
 angular.module('berlinerSchulenApp')
-	.config(function($stateProvider, $urlRouterProvider) {
+	.config(function($stateProvider, $urlRouterProvider, $mdThemingProvider) {
+
+		$mdThemingProvider
+			.theme('default')
+			.primaryPalette('indigo')
+			.accentPalette('pink')
+			.warnPalette('red')
+			.backgroundPalette('blue-grey');
 
 		// For any unmatched url, redirect to /
 		$urlRouterProvider.otherwise('/');
