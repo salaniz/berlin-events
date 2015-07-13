@@ -18,6 +18,7 @@ angular.module('berlinerSchulenApp')
           main: '',
 					// street: '',
 					districts: [],
+					startDate: ''
           /*
 					 * schooltypes: [],
 					 * supporter: [],
@@ -78,6 +79,10 @@ angular.module('berlinerSchulenApp')
 
 						case 'districts':
 							filter.districts = filterProp.districts;
+							break;
+
+						case 'startDate':
+							filter.startDate = filterProp.startDate;
 							break;
 
             /*
@@ -167,6 +172,15 @@ angular.module('berlinerSchulenApp')
 											return true;
 										}
 									}
+									return false;
+								} else {
+									return true;
+								}
+							})
+
+							.filter(function (row) {
+								if (filter.startDate != '') {
+									console.log(filter.startDate)
 									return false;
 								} else {
 									return true;
@@ -319,6 +333,12 @@ angular.module('berlinerSchulenApp')
 				$http.get('data/events.json').success(function (data) {
 					allSchools.content = data;
 					schools.content = data;
+
+					var i = 0
+					console.log(schools.content[i].from)
+					console.log(schools.content[i].to)
+					console.log(new Date(schools.content[i].from))
+					console.log(new Date(schools.content[i].to))
 
 					schools.applyFilter();
 

@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('berlinerSchulenApp')
-	.controller('MapCtrl', ['$scope', '$rootScope', '$timeout', 'schoolFactory', '$window', function ($scope, $rootScope, $timeout, schoolFactory, $window) { 
+	.controller('MapCtrl', ['$scope', '$rootScope', '$timeout', 'schoolFactory', '$window', function ($scope, $rootScope, $timeout, schoolFactory, $window) {
 		/* This is our Map setup.
 		 *
 		 * It uses the OSM tiles and is set to zoom 14.
@@ -184,7 +184,7 @@ angular.module('berlinerSchulenApp')
 
 		$scope.getMinMapHeight = function () {
 			if (cachedHeight === -1) {
-				cachedHeight = w.height() * 0.7;
+				cachedHeight = w.height() * 0.9;
 			}
 			return cachedHeight;
 		};

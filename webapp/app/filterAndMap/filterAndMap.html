@@ -42,6 +42,24 @@
 						</lx-select>
 					</div>
 
+					<div layout-md="row" layout-align="space-around center">
+						<lx-date-picker flex="45" ng-model="cbStartDate.selectedStartDate"
+										submit="cbStartDate.exec()"
+										loading="{{ cbStartDate.loading }}"
+										label="Zeitraum Beginn"
+										locale="de"
+										fixed-label="true"
+										icon="calendar">
+						</lx-date-picker>
+
+						<lx-date-picker model="datepicker.date" label="Zeitraum Ende" locale="de" fixed-label="true" icon="calendar">
+							<lx-date-picker-selected>
+								{{ $selected.name }}
+							</lx-date-picker-selected>
+						</lx-date-picker>
+
+					</div>
+
           <!--
 					  <div layout-md="row" layout-align="space-around center">
 					  	<lx-select flex="45" ng-model="cbSchooltypes.selectedTypes"

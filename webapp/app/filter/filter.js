@@ -10,6 +10,7 @@ angular.module('berlinerSchulenApp')
 				main: '',
 				// street: '',
 				districts: [],
+				startDate: ''
         /*
 				 * schooltypes: [],
 				 * supporter: [],
@@ -37,6 +38,7 @@ angular.module('berlinerSchulenApp')
 			$scope.resetFilter = function() {
 
 				$scope.cbDistricts.selectedDistricts = [];
+				$scope.cbDistricts.selectedStartDate = '';
         /*
 				 * $scope.cbSchooltypes.selectedTypes = [];
 				 * $scope.cbSchoolSupporter.selectedSupporter = [];
@@ -49,6 +51,7 @@ angular.module('berlinerSchulenApp')
 					main: '',
 					// street: '',
 					districts: [],
+					startDate: ''
           /*
 					 * schooltypes: [],
 					 * supporter: [],
@@ -88,6 +91,28 @@ angular.module('berlinerSchulenApp')
 					$scope.cbDistricts.loading = true;
 
 					schoolFactory.addFilterCallback('county', this.populate);
+				}
+			};
+
+			$scope.cbStartDate = {
+				selectedStartDate: '',
+
+				loading: false,
+
+				exec: function () {
+					console.log(selectedStartDate)
+					$scope.searchFilter.startDate = values.newValue;
+					$scope.filter();
+				},
+
+				populate: function () {
+					$scope.cbStartDate.loading = false;
+				},
+
+				addCallback: function () {
+					$scope.cbStartDate.loading = true;
+
+					schoolFactory.addFilterCallback('from', this.populate);
 				}
 			};
 
@@ -259,6 +284,7 @@ angular.module('berlinerSchulenApp')
 				$scope.searchFilter = filter;
 
 				$scope.cbDistricts.selectedDistricts = filter.districts;
+				$scope.cbStartDate.selectedStartDate = filter.startDate;
         /*
 				 * $scope.cbSchooltypes.selectedTypes = filter.schooltypes;
 				 * $scope.cbSchoolSupporter.selectedSupporter = filter.supporter;
@@ -278,6 +304,8 @@ angular.module('berlinerSchulenApp')
 					// Get Select Box Choices
 					var set = schoolFactory.getChoiceByName('county');
 					$scope.cbDistricts.populate(set);
+
+					$scope.cbStartDate.populate();
           /*
 					 * set = schoolFactory.getChoiceByName('Schultraeger');
 					 * $scope.cbSchoolSupporter.populate(set);
@@ -295,6 +323,7 @@ angular.module('berlinerSchulenApp')
 					$scope.filter();
 				} else {
 					$scope.cbDistricts.addCallback();
+					$scope.cbStartDate.addCallback();
           /*
 					 * $scope.cbSchoolSupporter.addCallback();
 					 * $scope.cbAccessibility.addCallback();
