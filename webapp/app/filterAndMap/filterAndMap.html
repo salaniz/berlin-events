@@ -1,7 +1,16 @@
+
+
 <div layout="column" layout-gt-md="row">
 	<div flex-gt-md="33" flex-gt-lg="25" id="filterContainer">
 		<div id="filterPadding">
 			<div ng-controller="FilterCtrl">
+        <lx-dialog class="dialog dialog" id="startCal" style="margin-left:-184px">
+          <time-date-picker ng-model="cbDate.selectedStartDate" on-save="cbDate.execStart($value)" on-cancel="closeCal('startCal')" display-mode="date" orientation="true"></time-date-picker>
+        </lx-dialog>
+        
+        <lx-dialog class="dialog dialog" id="endCal" style="margin-left:-184px">
+          <time-date-picker ng-model="cbDate.selectedEndDate" on-save="cbDate.execEnd($value)" on-cancel="closeCal('endCal')" display-mode="date" orientation="true"></time-date-picker>
+        </lx-dialog>
 				<form>
 					<md-progress-linear md-mode="indeterminate"
 										ng-if="loading"></md-progress-linear>
@@ -12,11 +21,6 @@
 								<lx-text-field label="Schlagwort">
 									<input type="text" ng-model="searchFilter.main" ng-change="filter()">
 								</lx-text-field>
-							</div>
-							<div>
-								<button class="btn btn--m btn--red btn--raised ml+ mt+" ng-click="resetFilter()"
-										lx-ripple>Zurücksetzen
-								</button>
 							</div>
 						</div>
 					</div>
@@ -42,23 +46,41 @@
 						</lx-select>
 					</div>
 
-					<div layout-md="row" layout-align="space-around center">
-						<lx-date-picker flex="45" ng-model="cbStartDate.selectedStartDate"
-										submit="cbStartDate.exec()"
-										loading="{{ cbStartDate.loading }}"
-										label="Zeitraum Beginn"
-										locale="de"
-										fixed-label="true"
-										icon="calendar">
-						</lx-date-picker>
-
-						<lx-date-picker model="datepicker.date" label="Zeitraum Ende" locale="de" fixed-label="true" icon="calendar">
-							<lx-date-picker-selected>
-								{{ $selected.name }}
-							</lx-date-picker-selected>
-						</lx-date-picker>
-
+          
+          <div layout-md="row" layout-align-md="center center">
+						<div layout="row" flex="95" layout-align="end center" layout-fill>
+							<div flex>
+                <lx-text-field label="Zeitraum Beginn" fixed-label="true" icon="calendar-today">
+									<input type="text" ng-model="cbDate.startDateString" ng-click="openCal('startCal')">
+								</lx-text-field>
+							</div>
+						</div>
 					</div>
+					
+          <div layout-md="row" layout-align-md="center center">
+						<div layout="row" flex="95" layout-align="end center" layout-fill>
+							<div flex>
+                <lx-text-field label="Zeitraum Ende" fixed-label="true" icon="calendar">
+									<input type="text" ng-model="cbDate.endDateString"  ng-click="openCal('endCal')">
+								</lx-text-field>
+							</div>
+						</div>
+					</div>
+
+					
+          
+          <div layout-md="row" layout-align-md="start center">
+              <div>
+                <button class="btn btn--m btn--red btn--raised ml+ mt+" ng-click="resetFilter()"
+                                                                        lx-ripple>Zurücksetzen
+                </button>
+              </div>
+          </div>
+          <!--
+					  <div layout-md="row" layout-align="space-around center">
+              <time-date-picker ng-model="dateValue" orientation='true' display-mode='date'></time-date-picker>
+            </div>
+          -->
 
           <!--
 					  <div layout-md="row" layout-align="space-around center">

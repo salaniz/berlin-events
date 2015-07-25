@@ -145,7 +145,7 @@ angular.module('berlinerSchulenApp')
 						layer: 'schools'
 					};
 
-					marker.icon = $scope.icons.red_icon
+					marker.icon = $scope.icons.green_icon
 					/*
 					//choose the icon depending on schooltype
 					switch (schools[i].Schulart) {

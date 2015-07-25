@@ -4,14 +4,16 @@ angular.module('berlinerSchulenApp', [
 	'leaflet-directive',
 	'ui.router',
 	'ngMaterial',
-	'lumx']);
+	'lumx',
+  'mdDateTime',
+  'ui.bootstrap']);
 
 angular.module('berlinerSchulenApp')
 	.config(function($stateProvider, $urlRouterProvider, $mdThemingProvider) {
 
 		$mdThemingProvider
 			.theme('default')
-			.primaryPalette('indigo')
+			.primaryPalette('green')
 			.accentPalette('pink')
 			.warnPalette('red')
 			.backgroundPalette('blue-grey');
@@ -24,6 +26,7 @@ angular.module('berlinerSchulenApp')
 			url: '/',
 			views: {
 				'view1': {
+          controller: 'FilterCtrl',
 					templateUrl: 'filterAndMap/filterAndMap.html'
 				},
 				'view2': {
