@@ -10,7 +10,7 @@ angular.module('berlinerSchulenApp')
 				main: '',
 				// street: '',
 				districts: [],
-				startDate: undefined,
+				startDate: (new Date()).setHours(0,0,0,0),
 				endDate: undefined,
         /*
 				 * schooltypes: [],
@@ -49,9 +49,9 @@ angular.module('berlinerSchulenApp')
 			$scope.resetFilter = function() {
 
 				$scope.cbDistricts.selectedDistricts = [];
+				$scope.cbDate.selectedStartDate = (new Date()).setHours(0,0,0,0);
 				$scope.cbDate.selectedStartDate = undefined;
-				$scope.cbDate.selectedStartDate = undefined;
-				$scope.cbDate.startDateString = '';
+				$scope.cbDate.startDateString = moment($scope.cbDate.selectedStartDate).format('DD.MM.YYYY');
 				$scope.cbDate.endDateString = '';
         /*
 				 * $scope.cbSchooltypes.selectedTypes = [];
@@ -65,7 +65,7 @@ angular.module('berlinerSchulenApp')
 					main: '',
 					// street: '',
 					districts: [],
-					startDate: undefined,
+					startDate: (new Date()).setHours(0,0,0,0),
 					endDate: undefined,
           /*
 					 * schooltypes: [],
@@ -91,7 +91,7 @@ angular.module('berlinerSchulenApp')
 				exec: function (values) {
 					$scope.searchFilter.districts = values.newValue;
 					$scope.filter();
-					console.log($scope.cbDate.selectedStartDate);
+					//console.log($scope.cbDate.selectedStartDate);
 
           
 				},
@@ -113,7 +113,7 @@ angular.module('berlinerSchulenApp')
 			};
 
 			$scope.cbDate = {
-				selectedStartDate: undefined,
+				selectedStartDate: (new Date()).setHours(0,0,0,0),
 				selectedEndDate: undefined,
 				startDateString: '',
 				endDateString: '',
@@ -121,12 +121,13 @@ angular.module('berlinerSchulenApp')
 				loading: false,
 
 				execStart: function (value) {
-					console.log('In execStart')
-          console.log(value)
-          $scope.cbDate.startDateString = moment(value).format('DD/MM/YYYY');
-          console.log($scope.cbDate.startDateString)
+					//console.log('In execStart')
+          //console.log(value)
+          value.setHours(0,0,0,0);
+          $scope.cbDate.startDateString = moment(value).format('DD.MM.YYYY');
+          //console.log($scope.cbDate.startDateString)
 					$scope.searchFilter.startDate = value;
-					// console.log($scope.cbDate.selectedStartDate)
+					// //console.log($scope.cbDate.selectedStartDate)
           /*
            */
 					$scope.filter();
@@ -134,12 +135,13 @@ angular.module('berlinerSchulenApp')
 				},
 				
         execEnd: function (value) {
-					console.log('In execEnd')
-          console.log(value)
-          $scope.cbDate.endDateString = moment(value).format('DD/MM/YYYY');
-          console.log($scope.cbDate.endDateString)
+					//console.log('In execEnd')
+          //console.log(value)
+          value.setHours(23,59,59,999);
+          $scope.cbDate.endDateString = moment(value).format('DD.MM.YYYY');
+          //console.log($scope.cbDate.endDateString)
 					$scope.searchFilter.endDate = value;
-					// console.log($scope.cbDate.selectedStartDate)
+					// //console.log($scope.cbDate.selectedStartDate)
           /*
 					 * $scope.searchFilter.startDate = values.newValue;
            */
@@ -163,9 +165,10 @@ angular.module('berlinerSchulenApp')
 				$scope.searchFilter = filter;
 
 				$scope.cbDistricts.selectedDistricts = filter.districts;
-				$scope.cbDate.selectedStartDate = undefined;
+				$scope.cbDate.selectedStartDate = (new Date()).setHours(0,0,0,0);
 				$scope.cbDate.selectedEndDate = undefined;
-				// $scope.cbDate.selectedStartDate = filter.startDate;
+        $scope.cbDate.startDateString = moment($scope.cbDate.selectedStartDate).format('DD.MM.YYYY');			
+        // $scope.cbDate.selectedStartDate = filter.startDate;
 			};
 
 

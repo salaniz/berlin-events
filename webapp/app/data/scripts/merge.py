@@ -4,7 +4,7 @@ with open('../events_location.json', 'r') as f:
     json_data = json.load(f)
 
 csv_data = []
-with open('../new_data.csv', 'r') as f:
+with open('../events.csv', 'r') as f:
     csv_reader = csv.DictReader(f)
     for row in csv_reader:
         csv_data.append(row)
