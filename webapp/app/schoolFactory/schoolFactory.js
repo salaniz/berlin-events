@@ -18,7 +18,7 @@ angular.module('berlinerSchulenApp')
           main: '',
 					// street: '',
 					districts: [],
-					startDate: undefined,
+					startDate: (new Date()).setHours(0,0,0,0),
 					endDate: undefined,
           /*
 					 * schooltypes: [],
@@ -150,7 +150,7 @@ angular.module('berlinerSchulenApp')
 								if (row.name !== undefined)
 								{
 									var name = row.name.toLowerCase();
-                  console.log
+                  //console.log
 									if(name.indexOf(filter.main) > -1) {
 										return true;
 									}
@@ -198,12 +198,12 @@ angular.module('berlinerSchulenApp')
               // Filter Beginndatum
 							.filter(function (row) {
 								if (filter.startDate != undefined) {
-									console.log(filter.startDate)
-                  var split = row.from.split("/");
-                  var eventDate = new Date(split[2],split[1],split[0]);
-                  console.log(split)
-                  console.log(eventDate);
-                  if (filter.startDate.getTime()>eventDate.getTime()){
+									//console.log(filter.startDate)
+                  var split = row.from.split(".");
+                  var eventDate = new Date(split[2],split[1]-1,split[0]);
+                  //console.log(split)
+                  //console.log(eventDate);
+                  if (filter.startDate>eventDate){
                     return false;
                   }
 									return true;
@@ -214,13 +214,13 @@ angular.module('berlinerSchulenApp')
               // Filter Enddatum
 							.filter(function (row) {
 								if (filter.endDate != undefined) {
-									console.log(filter.endDate)
-									console.log('Filter End')
-                  var split = row.to.split("/");
-                  var eventDate = new Date(split[2],split[1],split[0]);
-                  console.log(split)
-                  console.log(eventDate);
-                  if (filter.endDate.getTime()<eventDate.getTime()){
+									//console.log(filter.endDate)
+									//console.log('Filter End')
+                  var split = row.to.split(".");
+                  var eventDate = new Date(split[2],split[1]-1,split[0]);
+                  //console.log(split)
+                  //console.log(eventDate);
+                  if (filter.endDate<eventDate){
                     return false;
                   }
 									return true;
