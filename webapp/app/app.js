@@ -13,7 +13,7 @@ angular.module('berlinerSchulenApp')
 
 		$mdThemingProvider
 			.theme('default')
-			.primaryPalette('green')
+			.primaryPalette('teal')
 			.accentPalette('pink')
 			.warnPalette('red')
 			.backgroundPalette('blue-grey');

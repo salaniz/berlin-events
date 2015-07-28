@@ -42,18 +42,18 @@ angular.module('berlinerSchulenApp')
 			var schoolList = [];
 
 			var icons = {
-				blue: {
-					src: 'assets/img/circle_blue_borderless.svg'
-				},
+				//blue: {
+				//	src: 'assets/img/circle_blue_borderless.svg'
+				//},
 				red: {
 					src: 'assets/img/circle_red_borderless.svg'
 				},
-				bluegrey: {
-					src: 'assets/img/circle_bluegrey_borderless.svg'
-				},
-				cyan: {
-					src: 'assets/img/circle_cyan_borderless.svg'
-				},
+				//bluegrey: {
+				//	src: 'assets/img/circle_bluegrey_borderless.svg'
+				//},
+				//cyan: {
+				//	src: 'assets/img/circle_cyan_borderless.svg'
+				//},
 				green: {
 					src: 'assets/img/circle_green_borderless.svg'
 				},
@@ -66,35 +66,26 @@ angular.module('berlinerSchulenApp')
 
 				for (var i = schools.length - 1; i >= 0; i--) {
 					var school = {
-						'name': schools[i].Schulname,
-						'district': schools[i].Region,
-						'street': schools[i].Strasse,
-						'zip': schools[i].PLZ + ' Berlin',
-						'url': schools[i].Internet,
-						'type': schools[i].Schulart,
+						'name': schools[i].name,
+						'district': schools[i].county,
+						'street': schools[i].location,
+						'zip': schools[i].zip,
+						'date': schools[i].from + ' bis ' + schools[i].to,
+						'url': schools[i].website,
 						'lat': schools[i].lat,
 						'lon': schools[i].lon,
-						'bsn': schools[i].bsn
 					};
 
-					switch (schools[i].Schulart) {
-						case 'Grundschule':
+					//choose the icon depending on fee
+					switch (schools[i].fee) {
+						case 'K.A.':
 							school.icon = icons.orange;
 							break;
-						case 'Integrierte Sekundarschule':
-							school.icon = icons.blue;
-							break;
-						case 'Gymnasium':
-							school.icon = icons.cyan;
-							break;
-						case 'Berufsschule':
-						case 'Berufsfachschule':
-						case 'Berufsschule mit sonderpäd. Aufgaben':
-						case 'Kombinierte berufliche Schule':
+						case 'Eintritt frei':
 							school.icon = icons.green;
 							break;
 						default:
-							school.icon = icons.bluegrey;
+							school.icon = icons.orange;
 							break;
 					}
 					schoolList.push(school);

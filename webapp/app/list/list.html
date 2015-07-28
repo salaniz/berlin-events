@@ -2,7 +2,7 @@
 	<span flex></span>
 	<div class="md-toolbar-tools">
 		<div class="fill-height" layout="row" flex style="position: relative;">
-			<label>Liste der Schulen</label>
+			<label>Liste der Feste</label>
 		</div>
 	</div>
 </md-toolbar>
@@ -12,11 +12,10 @@
 		<tr>
 			<th></th>
 			<th>Name</th>
-			<th>Adresse</th>
+			<th>Ort</th>
 			<th>Stadtteil</th>
-			<th>Schulart</th>
+			<th>Datum</th>
 			<th>Link</th>
-			<th>Details</th>
 		</tr>
 		<tr>
 			<td></td>
@@ -38,24 +37,21 @@
 				<span>{{ school.district }}</span>
 			</td>
 			<td>
-				<span>{{ school.type }}</span>
+				<span>{{ school.date }}</span>
 			</td>
 			<td>
 				<a href="{{school.url}}"><span>{{school.url}}</span></a>
-			</td>
-			<td>
-				<a class="btn btn--m btn--green btn--raised" href="#/school/{{ school.bsn }}" lx-ripple>Details</a>
 			</td>
 		</tr>
 		</tbody>
 	</table>
 	<div class="divider divider--dark mt+ mb+"></div>
 	<div layout="row" layout-align="center center" class="m+">
-		<button class="mr btn btn--m btn--blue btn--fab bgc-blue-600" lx-ripple ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1"><i class="mdi mdi-minus"></i></button>
+		<button class="mr btn btn--m btn--teal btn--fab bgc-teal-600" lx-ripple ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1"><i class="mdi mdi-minus"></i></button>
 		<label class="fs-title">Seite {{currentPage+1}} von {{numberOfPages()}}</label>
-		<button class="ml btn btn--m btn--blue btn--fab bgc-blue-600" lx-ripple ng-disabled="currentPage >= schools.length / pageSize - 1" ng-click="currentPage=currentPage+1"><i class="mdi mdi-plus"></i></button>
+		<button class="ml btn btn--m btn--teal btn--fab bgc-teal-600" lx-ripple ng-disabled="currentPage >= schools.length / pageSize - 1" ng-click="currentPage=currentPage+1"><i class="mdi mdi-plus"></i></button>
 	</div>
 </div>
 <div ng-if="schools.length == 0" layout="row" layout-align="center center" class="m+++">
-	<label class="fs-title">Es gibt leider keine passende Schule.</label>
+	<label class="fs-title">Es gibt leider keine passenden Feste.</label>
 </div>

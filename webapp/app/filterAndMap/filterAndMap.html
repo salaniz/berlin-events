@@ -7,7 +7,7 @@
         <lx-dialog class="dialog dialog" id="startCal" style="margin-left:-184px">
           <time-date-picker ng-model="cbDate.selectedStartDate" on-save="cbDate.execStart($value)" on-cancel="closeCal('startCal')" display-mode="date" orientation="true"></time-date-picker>
         </lx-dialog>
-        
+
         <lx-dialog class="dialog dialog" id="endCal" style="margin-left:-184px">
           <time-date-picker ng-model="cbDate.selectedEndDate" on-save="cbDate.execEnd($value)" on-cancel="closeCal('endCal')" display-mode="date" orientation="true"></time-date-picker>
         </lx-dialog>
@@ -46,7 +46,7 @@
 						</lx-select>
 					</div>
 
-          
+
           <div layout-md="row" layout-align-md="center center">
 						<div layout="row" flex="95" layout-align="end center" layout-fill>
 							<div flex>
@@ -56,7 +56,7 @@
 							</div>
 						</div>
 					</div>
-					
+
           <div layout-md="row" layout-align-md="center center">
 						<div layout="row" flex="95" layout-align="end center" layout-fill>
 							<div flex>
@@ -67,8 +67,8 @@
 						</div>
 					</div>
 
-					
-          
+
+
           <div layout-md="row" layout-align-md="start center">
               <div>
                 <button class="btn btn--m btn--red btn--raised ml+ mt+" ng-click="resetFilter()"
@@ -76,6 +76,21 @@
                 </button>
               </div>
           </div>
+
+		  <div layout-md="row" layout-align-md="start center">
+			  <div>
+				  <p style="float: left;"><img src="assets/img/circle_green_borderless.svg" style="height:25px; width:25px;"></p>
+				  <p>Eintritt frei</p>
+			  </div>
+			  <div style="clear: left;">
+				  <p style="float: left;"><img src="assets/img/circle_orange_borderless.svg" style="height:25px; width:25px;"></p>
+				  <p>Keine Angabe zu Eintrittspreise (evtl. frei)</p>
+			  </div>
+			  <div style="clear: left;">
+				  <p style="float: left;"><img src="assets/img/circle_red_borderless.svg" style="height:25px; width:25px;"></p>
+				  <p>Eintritt kostenpflichtig</p>
+			  </div>
+		  </div>
           <!--
 					  <div layout-md="row" layout-align="space-around center">
               <time-date-picker ng-model="dateValue" orientation='true' display-mode='date'></time-date-picker>

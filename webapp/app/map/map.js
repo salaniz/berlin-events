@@ -129,10 +129,32 @@ angular.module('berlinerSchulenApp')
 
 					// Create Marker Tooltip
 					var tooltip = '<strong>' + schools[i].name + '</strong><br>';
-					tooltip += 'Ort: ' + schools[i].location + ', ' + schools[i].zip + ', ' + schools[i].county + '<br>';
-					tooltip += 'Von: ' + schools[i].from + ' bis ' + schools[i].to + '<br>';
-					tooltip += 'Zeit: ' + schools[i].time + '<br><br>';
-					tooltip += '<a href=#/school/' + schools[i].id + '>Details</a>';
+					tooltip += '<em>Ort:</em> ';
+					if(schools[i].location != "") {
+						tooltip += schools[i].location + ', ';
+					}
+					if(schools[i].zip != ""){
+						tooltip += schools[i].zip + ', ';
+					}
+					tooltip += schools[i].county + '<br>';
+					tooltip += '<em>Datum:</em> ' + schools[i].from + ' bis ' + schools[i].to + '<br>';
+					tooltip += '<em>Zeit:</em> ' + schools[i].time + '<br>';
+					tooltip += '<em>Eintritt:</em> ' + schools[i].fee + '<br><br>';
+
+					tooltip += '<em>Veranstalter:</em> ' + schools[i].host + '<br>';
+					if(schools[i].tel != ""){
+						tooltip += '<em>Tel:</em> ' + schools[i].tel + '<br>';
+					}
+					if(schools[i].mail != ""){
+						tooltip += '<em>Mail:</em> <a href="mailto:' + schools[i].mail + '">' + schools[i].mail + '</a><br>';
+					}
+					if(schools[i].website != ""){
+						tooltip += '<em>Website:</em> <a href="http://' + schools[i].website + '">' + schools[i].website + '</a><br>';
+					}
+
+					if(schools[i].comments != "") {
+						tooltip += '<br><em>Bemerkungen:</em> ' + schools[i].comments;
+					}
 
 					// Using an array here b/c with push() it is easy to
 					// add new markers (object) to the array.
@@ -145,30 +167,19 @@ angular.module('berlinerSchulenApp')
 						layer: 'schools'
 					};
 
-					marker.icon = $scope.icons.green_icon
-					/*
-					//choose the icon depending on schooltype
-					switch (schools[i].Schulart) {
-						case 'Grundschule':
+					//choose the icon depending on fee
+					switch (schools[i].fee) {
+						case 'K.A.':
 							marker.icon = $scope.icons.orange_icon;
 							break;
-						case 'Integrierte Sekundarschule':
-							marker.icon = $scope.icons.blue_icon;
-							break;
-						case 'Gymnasium':
-							marker.icon = $scope.icons.cyan_icon;
-							break;
-						case 'Berufsschule':
-						case 'Berufsfachschule':
-						case 'Berufsschule mit sonderpäd. Aufgaben':
-						case 'Kombinierte berufliche Schule':
+						case 'Eintritt frei':
 							marker.icon = $scope.icons.green_icon;
 							break;
 						default:
-							marker.icon = $scope.icons.bluegrey_icon;
+							marker.icon = $scope.icons.red_icon;
 							break;
 					}
-					*/
+
 					$scope.data.markers[schools[i].id] = marker;
 				}
 			}
@@ -184,7 +195,7 @@ angular.module('berlinerSchulenApp')
 
 		$scope.getMinMapHeight = function () {
 			if (cachedHeight === -1) {
-				cachedHeight = w.height() * 0.9;
+				cachedHeight = w.height() * 1.0;
 			}
 			return cachedHeight;
 		};
