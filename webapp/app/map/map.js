@@ -35,7 +35,7 @@ angular.module('berlinerSchulenApp')
 				},
 				overlays: {
 					schools: {
-						name: 'Schulen',
+						name: 'Feste',
 						type: 'markercluster',
 						visible: true
 					}
