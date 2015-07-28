@@ -199,7 +199,7 @@ angular.module('berlinerSchulenApp')
 							.filter(function (row) {
 								if (filter.startDate != undefined) {
 									//console.log(filter.startDate)
-                  var split = row.from.split(".");
+                  var split = row.to.split(".");
                   var eventDate = new Date(split[2],split[1]-1,split[0]);
                   //console.log(split)
                   //console.log(eventDate);
@@ -216,7 +216,7 @@ angular.module('berlinerSchulenApp')
 								if (filter.endDate != undefined) {
 									//console.log(filter.endDate)
 									//console.log('Filter End')
-                  var split = row.to.split(".");
+                  var split = row.from.split(".");
                   var eventDate = new Date(split[2],split[1]-1,split[0]);
                   //console.log(split)
                   //console.log(eventDate);

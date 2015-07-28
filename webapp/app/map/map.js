@@ -149,7 +149,7 @@ angular.module('berlinerSchulenApp')
 						tooltip += '<em>Mail:</em> <a href="mailto:' + schools[i].mail + '">' + schools[i].mail + '</a><br>';
 					}
 					if(schools[i].website != ""){
-						tooltip += '<em>Website:</em> <a href="http://' + schools[i].website + '">' + schools[i].website + '</a><br>';
+						tooltip += '<em>Website:</em> <a href="http://' + schools[i].website + '" target="_blank">' + schools[i].website + '</a><br>';
 					}
 
 					if(schools[i].comments != "") {

@@ -3,7 +3,8 @@ id,bezirk,bezeichnung,strasse,plz,von,bis,zeit,veranstalter,Tel,Fax,mail,www,bem
 586,Beelitz,Kürbis- und Spargelhof Syring - Mit großem Kreiserntefest,"Trebbiner Str. 69f, Beelitz OT Zauchwitz",,19.09.2015,20.09.2015,"K.A.
 ",Syring - Feinkost,033204/63 80 - 0,033204/63 80 29,info@beelitzerkuerbis.de,www.beelitzerkuerbis.de,,K.A.,"
 Eintritt"
-448,Beeskow,"18. Osterspectaculum auf der Burg Beeskow - Historischer Markt, Ritterlager & Ritterkämpfe am Boden, Musik & Show",Burg Beeskow,15848,04.04.2015,06.04.2015,10:00-20:00,Carnica Historische Feste & Märkte,0171/515 32 70,033602/29 64,post@carnica.de,www.carnica-spectaculi.de,"","Eintritt Erwachsene 10 € (3-Tageskarte 15 €) , Kinder bis 5 Jahre frei, 
+448,Beeskow,"18. Osterspectaculum auf der Burg Beeskow - Historischer Markt, Ritterlager & Ritterkämpfe am Boden, Musik & Show",Burg Beeskow,15848,04.04.2015,06.04.2015,10:00-20:00,Carnica Historische Feste & Märkte,0171/515 32 70,033602/29 64,post@carnica.de,www.carnica-spectaculi.de,"
+","Eintritt Erwachsene 10 € (3-Tageskarte 15 €) , Kinder bis 5 Jahre frei, 
 Kinder 6 - 16 Jahre 5 € (8 €), Schüler, Studenten, gewandete Gäste 8 € 
 (13 €), Familie 25 € (30 €) , Besuch der Museen, Ausstellungen und 
 Turmbesuch der Burg im Eintrittspreis enthalten",Eintritt
@@ -15,11 +16,13 @@ So 10:00-19:00",LAUBINGER Veranstaltungsagentur,033439/14 34 90,033439/14 34 92,
 2,Charlottenburg-Wilmersdorf,4. Ostermarkt auf dem Breitscheidplatz,Breitscheidplatz,,04.04.2015,12.04.2015,"Mo - Do 11:00-21:00
 Fr - So 11:00-22:00","Schaustellerverband Berlin e. V.
 ","213 32 90
-",213 40 34,info@svbev.de,www.schaustellerverband-berlin.de,"",Eintritt frei,Bemerkungen Eintritt
+",213 40 34,info@svbev.de,www.schaustellerverband-berlin.de,"
+",Eintritt frei,Bemerkungen Eintritt
 4,Charlottenburg-Wilmersdorf,Maifest 2015,Rüdesheimer Platz,14197,09.05.2015,10.05.2015,"Sa 11:00-22:00
 So 10:00-20:00
 ","Rüdi-Net e. V.
-",0152/33 79 85 14,"",mail@ruedi-net.de,www.ruedinet.de,"Marktmeile:
+",0152/33 79 85 14,"
+",mail@ruedi-net.de,www.ruedinet.de,"Marktmeile:
 Sa, So 11:00-19:00 ","Eintritt frei
 ",Eintritt
 6,Charlottenburg-Wilmersdorf,Fest der Nationen,Prager Platz,,29.05.2015,31.05.2015,"
@@ -30,30 +33,40 @@ Herr Arzig
 So 11:00-20:00","Family & Friends e. V.
 ",0178 / 238 55 21,305 55 21,stadtkultur@family-and-friends-eV.de,www.family-and-friends-eV.de,,K.A.,Telefon Eintritt
 10,Charlottenburg-Wilmersdorf,Kinder- und Familienfest auf dem Klausener Platz,Klausener Platz,,24.05.2015,25.05.2015,10:00-22:00,"Ensar Camii e. V.
-",33 00 74 29/35,"",ensar.camii@web.de,K.A.,,K.A.,Telefon Mail WWW Eintritt
+",33 00 74 29/35,"
+",ensar.camii@web.de,K.A.,,K.A.,Telefon Mail WWW Eintritt
 12,Charlottenburg-Wilmersdorf,6. Berliner Kunstallee,"Schloßstr. 1-12
 ggü. Schloss Charlottenburg",,30.05.2015,31.05.2015,11:00-18:00,"Cornelja Hasler, Kunsthand-Berlin",40 63 70 31,401 74 40,info@kunsthand-berlin.de,www.kunsthand-berlin.de,,K.A.,Eintritt
-14,Charlottenburg-Wilmersdorf,Fest im Österreich Park,Sömmeringstr. 1,10589,21.06.2015,21.06.2015,15:00-22:00,"Österreich Werbung, Kontakt: Markus Aspetzberger",21 91 48 16,"",markus.aspetzberger@austria.info,www.austria.info/berlin,,Eintritt frei,Eintritt
+14,Charlottenburg-Wilmersdorf,Fest im Österreich Park,Sömmeringstr. 1,10589,21.06.2015,21.06.2015,15:00-22:00,"Österreich Werbung, Kontakt: Markus Aspetzberger",21 91 48 16,"
+",markus.aspetzberger@austria.info,www.austria.info/berlin,,Eintritt frei,Eintritt
 18,Charlottenburg-Wilmersdorf,37. Christopher Street Day Parade 2015,Beginn: Kurfürstendamm,,27.06.2015,27.06.2015,12:30,Berliner CSD e. V.,23 62 86 32,23 62 86 34,info@csd-berlin.de,www.csd-berlin.de,,Eintritt frei,Mail Eintritt
-20,Charlottenburg-Wilmersdorf,21. Fête de la Musique,"",,21.06.2015,21.06.2015,14:00-22:00,Fête Company,+49-30- 417 15 289,"",hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Straße Bemerkungen Eintritt
+20,Charlottenburg-Wilmersdorf,21. Fête de la Musique,"
+",,21.06.2015,21.06.2015,14:00-22:00,Fête Company,+49-30- 417 15 289,"
+",hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Straße Bemerkungen Eintritt
 22,Charlottenburg-Wilmersdorf,35. Internationales Drehorgelfest,Breitscheidplatz/Kaiser-Wilhelm-Gedächtniskirche,,03.07.2015,05.07.2015,"Fr 11:00-24:00
 Sa 11:00-24:00
 So 11:00-21:00",Schaustellerbetrieb Thilo-Harry Wollenschlaeger,0163/400 05 00,03322/423 41 39,info@wollenschlaeger-berlin.de,www.wollenschlaeger-berlin.de,,K.A.,Eintritt
 24,Charlottenburg-Wilmersdorf,IV. Duckstein-Festival - Kulturfest,Schloss Charlottenburg,,10.07.2015,19.07.2015,"Mo - Fr 16:00-23:00
 Sa 14:00-24:00
-So 12:00-22:00",bwp festival & event GmbH,040/46 88 23 01,"",info@bergmann-gruppe.net,www.ducksteinfestival.de,,K.A.,Eintritt
+So 12:00-22:00",bwp festival & event GmbH,040/46 88 23 01,"
+",info@bergmann-gruppe.net,www.ducksteinfestival.de,,K.A.,Eintritt
 26,Charlottenburg-Wilmersdorf,Kleines Straßenfest zum Schweizer Nationalfeiertag,Güntzelstraße,10717,01.08.2015,01.08.2015,11:00-23:00,Kamfa Feinkost GmbH Chuchichäschtli,53 67 72 20,25 56 41 94,info@chuchichaeschtli.de,www.chuchichaeschtli.de,,K.A.,Eintritt
 28,Charlottenburg-Wilmersdorf,"""Summer In the City"" 2015 - Partnerboulevards der ""Vereinigung weltbekannter Einkaufsstraßen"" aus 8 Ländern präsentieren sich",Breitscheidplatz an der Kaiser-Wilhelm-Gedächtniskirche,10789,31.07.2015,16.08.2015,"31.07.: 16:30-24:00
 So - Do 10:00-22:00
-Fr, Sa 10:00-24:00",Arbeitsgemeinschaft City e. V.,262 95 91/92,262 95 93,info@agcity.de,www.agcity.de,"",Eintritt frei,Eintritt
+Fr, Sa 10:00-24:00",Arbeitsgemeinschaft City e. V.,262 95 91/92,262 95 93,info@agcity.de,www.agcity.de,"
+",Eintritt frei,Eintritt
 30,Charlottenburg-Wilmersdorf,"Sommerfest am Rüdesheimer Platz - ""Wir treffen uns am Rüdesheimer Platz""",Rüdesheimer Platz und Landauer Straße,14197,05.09.2015,06.09.2015,"Sa 11:00-22:00
-So 10:30-20:00","Rüdi-Net e V., Das Netzwerk am Rüdesheimer Platz",0152/33 79 85 14,"",mail@ruedi-net.de,www.ruedi-net.de,"Marktmeile: Sa, So 11:00-19:00",Eintritt frei,Eintritt
-32,Charlottenburg-Wilmersdorf,41. Berliner Seniorenwoche,Breitscheidplatz,,05.09.2015,17.09.2015,10:00 - 17:00,Senatsverwaltung für Gesundheit und Soziales,90 28 27 92,86 20 89 71,info@senioren-berlin.de,www.senioren-berlin.de,"",Eintritt frei,Eintritt
+So 10:30-20:00","Rüdi-Net e V., Das Netzwerk am Rüdesheimer Platz",0152/33 79 85 14,"
+",mail@ruedi-net.de,www.ruedi-net.de,"Marktmeile: Sa, So 11:00-19:00",Eintritt frei,Eintritt
+32,Charlottenburg-Wilmersdorf,41. Berliner Seniorenwoche,Breitscheidplatz,,05.09.2015,17.09.2015,10:00 - 17:00,Senatsverwaltung für Gesundheit und Soziales,90 28 27 92,86 20 89 71,info@senioren-berlin.de,www.senioren-berlin.de,"
+",Eintritt frei,Eintritt
 34,Charlottenburg-Wilmersdorf,Sommerfest der Kirchengemeinde Alt-Schmargendorf,Misdroyer Str. 39,,05.07.2015,05.07.2015,ab 14:00,Evangelische Kirchengemeinde Alt-Schmargendorf,81 82 69 86,823 62 77,mail@alt-schmargendorf.de,www.alt-schmargendorf.de,13:00 Familiengottesdienst,Eintritt frei,Mail Eintritt
-36,Charlottenburg-Wilmersdorf,14. Antikmeile Suarezstraße,Suarezstraße zwischen Kantstraße und Kaiserdamm,,05.09.2015,05.09.2015,12:00-20:00,"Oldthing, Michael Schrottmeyer",29 00 20 10,"",service@oldthing.de,http://oldthing.de/suarezstrasse,,Eintritt frei,WWW Eintritt
+36,Charlottenburg-Wilmersdorf,14. Antikmeile Suarezstraße,Suarezstraße zwischen Kantstraße und Kaiserdamm,,05.09.2015,05.09.2015,12:00-20:00,"Oldthing, Michael Schrottmeyer",29 00 20 10,"
+",service@oldthing.de,http://oldthing.de/suarezstrasse,,Eintritt frei,WWW Eintritt
 38,Charlottenburg-Wilmersdorf,Herbst in Westend,Preußenallee,14052,19.09.2015,20.09.2015,"Sa 11:00-23:00
 So 11:00-20:00",Family & Friends e. V.,305 55 21,305 55 21,stadtkultur@family-and-friends-eV.de,www.family-and-friends-eV.de,,K.A.,Eintritt
-632,Charlottenburg-Wilmersdorf,BERLIN CELEBRATES IFA - die Trendshow am Kurfürstendamm,Breitscheidplatz,10789,04.09.2015,09.09.2015,10:00-20:00,Arbeitsgemeinschaft City e. V. in Kooperation mit der Messe Berlin GmbH und der Agentur AD AGENDA Kommunikation und Event GmbH,536 33 30,,Anne.Heinemann@ad-agenda.com,http://celebrate-ifa.de/,"",Eintritt frei,Eintritt
+632,Charlottenburg-Wilmersdorf,BERLIN CELEBRATES IFA - die Trendshow am Kurfürstendamm,Breitscheidplatz,10789,04.09.2015,09.09.2015,10:00-20:00,Arbeitsgemeinschaft City e. V. in Kooperation mit der Messe Berlin GmbH und der Agentur AD AGENDA Kommunikation und Event GmbH,536 33 30,,Anne.Heinemann@ad-agenda.com,http://celebrate-ifa.de/,"
+",Eintritt frei,Eintritt
 640,Charlottenburg-Wilmersdorf,Sport im Olympiapark mit dem 21. Kinder- und Jugendfestival,Gelände des Olympiaparks,,30.08.2015,30.08.2015,10:00-18:00,Landessportbund Berlin e. V. in Kooperation mit Juventus Deutschland e. V.,30 00 20,,M.Luetzen@sport-im-olympiapark-berlin.de,http://www.sport-im-olympiapark-berlin-2014.de,,K.A.,Mail Eintritt
 432,Cottbus,Umzug in Cottbus,Cottbuser Innenstadt,,08.02.2015,08.02.2015,13:11-17:00,Drebkauer Carneval Club e. V.,035602/212 64,035602/212 64,info@drebkau-helau.de,www.drebkau-helau.de,,,
 510,Eberswalde,8. FinE Straßenkulturfest (Fest in Eberswalde),Eberswalder Innenstadt und am Ufer des Finowkanals,,06.06.2015,06.06.2015,10:30-01:00,Stadt Eberswalde,03334/645 20,03334/644 19,kulturamt@eberswalde.de,www.eberswalde.de,,K.A.,Mail Eintritt
@@ -72,7 +85,8 @@ Mo 11:00-19:00",Kulturprojekte Berlin GmbH,24 74 98 47,,info@karneval-berlin.de,
 24.05.: 12:30 - ca. 21:00, Umzugsstrecke: Hermannplatz - Hasenheide - Gneisenaustraße - Mehringdamm",Eintritt frei,Eintritt
 48,Friedrichshain-Kreuzberg,19. Kinderkarneval der Kulturen,Start am Mariannenplatz,,23.05.2015,23.05.2015,13:30 Start am Mariannenplatz,Kreuzberger Musikalische Aktion KMA e. V.,25 29 51 63/4,25 29 51 62,booking@kma-antenne.de,www.kma-kinderkarneval.de,"Kinderfest:
 15:00-19:00 im Görlitzer Park",Eintritt frei,Eintritt
-50,Friedrichshain-Kreuzberg,21. Fête de la Musique,"",,21.06.2015,21.06.2015,"14:00-22:00
+50,Friedrichshain-Kreuzberg,21. Fête de la Musique,"
+",,21.06.2015,21.06.2015,"14:00-22:00
 ",Fête Company,+49-30- 417 15 289,,hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Eintritt Telefon
 52,Friedrichshain-Kreuzberg,22. Bergmannstraßenfest/Kreuzberg jazzt!,Bergmannstraße / Chamissoplatz,,26.06.2015,28.06.2015,"Fr 16:00-22:00
 Sa 11:00-22:00
@@ -117,14 +131,16 @@ So 10:00-21:00","Wandertheater Cocolorus Budenzauber, Brauchtumspflege Mecklenbu
 582,Klaistow,Riesen-Kürbissuppe,Spargel- und Erlebnishof Klaistow,14547,06.09.2015,06.09.2015,K.A.,"Spargel- und Erlebnishof Buschmann & Winkelmann, Glindower Str. 28, 14547 Beelitz OT Klaistow",033206/610 70,033206/610 89,info@buschmann-winkelmann.de,www.buschmann-winkelmann.de,,K.A.,Eintritt Zeit
 592,Klaistow,3. Deutsche Riesengemüse-Wiegemeisterschaft,Spargel- und Erlebnishof Klaistow,14547,20.09.2015,20.09.2015,Ab 14:00,"Spargel- und Erlebnishof Buschmann & Winkelmann, Glindower Str. 28, 14547 Beelitz OT Klaistow",033206/610 70,033206/610 89,info@buschmann-winkelmann.de,www.buschmann-winkelmann.de,,K.A.,Eintritt
 602,Klaistow,Offene GPC-Kürbiswiegemeisterschaft Berlin-Brandenburg 2015,Spargel- und Erlebnishof Klaistow,14547,27.09.2015,27.09.2015,ab 14:00,"Spargel- und Erlebnishof Buschmann & Winkelmann, Glindower Str. 28, 14547 Beelitz OT Klaistow",033206/610 70,033206/610 89,info@buschmann-winkelmann.de,www.buschmann-winkelmann.de,Vorjahressieger: 951 kg,K.A.,Eintritt
-610,Klaistow,Oktoberfest,Spargel- und Erlebnishof Klaistow,14547,25.09.2015,25.09.2015,19:00-24:00,"Spargel- und Erlebnishof Buschmann & Winkelmann, Glindower Str. 28, 14547 Beelitz OT Klaistow",033206/610 70,033206/610 89,info@buschmann-winkelmann.de,www.buschmann-winkelmann.de,"",Eintritt 7 €,Eintritt
+610,Klaistow,Oktoberfest,Spargel- und Erlebnishof Klaistow,14547,25.09.2015,25.09.2015,19:00-24:00,"Spargel- und Erlebnishof Buschmann & Winkelmann, Glindower Str. 28, 14547 Beelitz OT Klaistow",033206/610 70,033206/610 89,info@buschmann-winkelmann.de,www.buschmann-winkelmann.de,"
+",Eintritt 7 €,Eintritt
 618,Klaistow,Drachenfest,Spargel- und Erlebnishof Klaistow,14547,18.10.2015,18.10.2015,ab 11:00,"Spargel- und Erlebnishof Buschmann & Winkelmann, Glindower Str. 28, 14547 Beelitz OT Klaistow",033206/610 70,033206/610 89,info@buschmann-winkelmann.de,www.buschmann-winkelmann.de,,K.A.,Eintritt
 624,Klaistow,"Halloween-Fest mit Kinder-Kostümdisko, Lagerfeuer, Laternenumzug und Feuerwerk",Spargel- und Erlebnishof Klaistow,14547,31.10.2015,31.10.2015,ab 12:00,"Spargel- und Erlebnishof Buschmann & Winkelmann, Glindower Str. 28, 14547 Beelitz OT Klaistow",033206/610 70,033206/610 89,info@buschmann-winkelmann.de,www.buschmann-winkelmann.de,,K.A.,Eintritt
 626,Klaistow,Kürbisschlachtefest,Spargel- und Erlebnishof Klaistow,14547,01.11.2015,01.11.2015,"ab 14:00
 ","Spargel- und Erlebnishof Buschmann & Winkelmann, Glindower Str. 28, 14547 Beelitz OT Klaistow",033206/610 70,033206/610 89,info@buschmann-winkelmann.de,www.buschmann-winkelmann.de,,K.A.,Eintritt Zeit
 630,Klaistow,Countryfest,Spargel- und Erlebnishof Klaistow,14547,27.11.2015,27.11.2015,18:00-23:00,"Spargel- und Erlebnishof Buschmann & Winkelmann, Glindower Str. 28, 14547 Beelitz OT Klaistow",033206/610 70,033206/610 89,info@buschmann-winkelmann.de,www.buschmann-winkelmann.de,,K.A.,Eintritt
 576,Königs Wusterhausen,"3. Ritterfest in Königs Wusterhausen - Historischer Markt mit Ritterlager & Ritterturnier am Boden, Musik & Show","Festwiese am Nottekanal, Königs Wusterhausen",15711,19.09.2015,20.09.2015,"Sa 10:00-22:00
-So 10:00-19:00",Carnica Historische Feste & Märkte,0171/515 32 70,033602/29 64,post@carnica.de,www.carnica-spectaculi.de,"","Eintritt Erwachsene 7 €, Kinder bis 5 Jahre frei, Kinder 6 - 16 Jahre 5 
+So 10:00-19:00",Carnica Historische Feste & Märkte,0171/515 32 70,033602/29 64,post@carnica.de,www.carnica-spectaculi.de,"
+","Eintritt Erwachsene 7 €, Kinder bis 5 Jahre frei, Kinder 6 - 16 Jahre 5 
 €, Schüler, Studenten, gewandete Gäste 6 €, Familie 18 € (2 Erwachsene 
 mit eigenen Kindern bis 16 Jahre)",Eintritt
 522,Kremmen,10. Drachenbootrennen Kremmen auf dem Beetzer See,"Am Beetzer See, Kremmen/Beetz Sommerfeld",,11.07.2015,11.07.2015,ca. 09:00-18:00,"Stadt Kremmen, Organisation: Wassersportzentrum Oranienburg",03301/53 95 90,03301/53 95 91,info@wassersportzentrum-oranienburg.de,www.wassersportzentrum-oranienburg.de,Abendveranstaltung: ca. 20:00-01:00,K.A.,Eintritt
@@ -138,16 +154,20 @@ Sa ca. 10:00-23:00
 So ca. 10:00-20:00",Deutsch Russische Festtage e. V.,20 60 55 33,20 60 55 34,info@drf-berlin.de,www.drf-berlin.de,,Eintritt frei,Eintritt
 74,Lichtenberg,Kinder- und Familienfest Viva Victoria,Vielfalt im Kiez - rund um die alte schmiede,10317,25.04.2015,25.04.2015,14:00-22:00,"firmaris gGmbH, Jugend- und Begegnungsstätte alte schmiede",57 79 79 90,577 97 99 55,alte.schmiede@sozdia.de,www.firmaris.de,www.sozdia.de,"K.A.
 ",Eintritt
-76,Lichtenberg,21. Fête de la Musique,,,21.06.2015,21.06.2015,15:00-22:00,Fête Company,+49-30- 417 15 289,"",hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Zeit Eintritt
+76,Lichtenberg,21. Fête de la Musique,,,21.06.2015,21.06.2015,15:00-22:00,Fête Company,+49-30- 417 15 289,"
+",hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Zeit Eintritt
 78,Lichtenberg,Wasserfest in der Rummelsburger Bucht,Rummelsburger Bucht,,29.08.2015,29.08.2015,"13:00-22:00
-","firmaris gGmbH, iKARUS stadtteilzentrum",89 62 25 52,89 62 35 47,info@firmaris.de,www.firmaris.de,"","K.A.
+","firmaris gGmbH, iKARUS stadtteilzentrum",89 62 25 52,89 62 35 47,info@firmaris.de,www.firmaris.de,"
+","K.A.
 ",WWW Eintritt
-80,Lichtenberg,Schlossfest Friedrichsfelde - 6. Großes Rokoko-Fest,Tierpark Berlin,,22.08.2015,23.08.2015,10:00-17:00,Freunde Hauptstadtzoos - Schloss Friedrichsfelde,51 53 14 07,512 40 61,info@schloss-friedrichsfelde.de,www.schloss-friedrichsfelde.de,"",Eintritt: regulärer Tierparkeintritt,Eintritt
+80,Lichtenberg,Schlossfest Friedrichsfelde - 6. Großes Rokoko-Fest,Tierpark Berlin,,22.08.2015,23.08.2015,10:00-17:00,Freunde Hauptstadtzoos - Schloss Friedrichsfelde,51 53 14 07,512 40 61,info@schloss-friedrichsfelde.de,www.schloss-friedrichsfelde.de,"
+",Eintritt: regulärer Tierparkeintritt,Eintritt
 82,Lichtenberg,Erntefest Berlin-Hohenschönhausen,,,01.10.2015,04.10.2015,K.A.,LAUBINGER Veranstaltungsagentur,033439/14 34 90,033439/14 34 92,info@laubinger.de,www.laubinger.de,"großes Erntefest mit Erntegarten, Erntebaum, Bühnenprogramm","K.A.
 ",Eintritt
 84,Marzahn-Hellersdorf,"Osterfest in der ""Helle Mitte""",Ostermarkt mit Bühnenprogramm und Schaustellern auf dem Alice-Salomon-Platz,,03.04.2015,06.04.2015,"Fr 11:00-22:00
 Sa, So 11:00-23:00
-Mo 11:00-21:00",LAUBINGER Veranstaltungsagentur,033439/14 34 90,033439/14 34 92,info@laubinger.de,www.laubinger.de,"",Eintritt frei,Eintritt
+Mo 11:00-21:00",LAUBINGER Veranstaltungsagentur,033439/14 34 90,033439/14 34 92,info@laubinger.de,www.laubinger.de,"
+",Eintritt frei,Eintritt
 86,Marzahn-Hellersdorf,Kirschblütenfest,"im und am Japanischen, Koreanischen ""Seouler"" und Chinesischen Garten, Eisenacher Str. 99",,12.04.2015,12.04.2015,12:00-17:00,"Gärten der Welt, durchführende Agentur: Artecom Veranstaltungs GmbH & Co. KG",55 49 41 10,67 04 46 56,agentur@artecom-event.de,www.artecom-event.de,"Fernöstlicher Blütenzauber mitten in Berlin - Erleben Sie die Kultur Asiens mit Tanz, Theater und Musik","Sondereintritt ganztags 7 €, ermäßigt 3,50 €",Eintritt Bemerkungen
 88,Marzahn-Hellersdorf,"""Helle Mitte tanzt""",Alice-Salomon-Platz,,01.05.2015,03.05.2015,K.A.,LAUBINGER Veranstaltungsagentur,033439/14 34 90,033439/14 34 92,info@laubinger.de,www.laubinger.de,,K.A.,Eintritt Zeit
 90,Marzahn-Hellersdorf,"Lotuslaternenfest im und am Koreanischen ""Seouler Garten"" ",Eisenacher Str. 99,,09.05.2015,09.05.2015,18:00-22:00,"Gärten der Welt, durchführende Agentur: Artecom Veranstaltungs GmbH & Co. KG",55 49 41 10,67 04 46 56,agentur@artecom-event.de,www.artecom-event.de,Fernöstliche Welt aus Licht und Schatten - koreanisches Fest anlässlich Buddhas Geburtstag,", Sondereintritt ganztags 7 €, ermäßigt 3,50 €",Eintritt Bemerkungen
@@ -167,7 +187,8 @@ So 10:00-19:00",PRÄSENTA GmbH,65 76 35 60,65 76 35 69,info@praesenta-berlin.de,
 104,Marzahn-Hellersdorf,21. Fête de la Musique,,,21.06.2015,21.06.2015,,Fête Company,+49-30- 417 15 289,,hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,"Telefon, Bemerkungen Eintritt"
 106,Marzahn-Hellersdorf,Klang-Farben-Fest im und am Christlichen Garten,Eisenacher Str. 99,,28.06.2015,28.06.2015,12:00-17:00,"Gärten der Welt, durchführende Agentur: Artecom Veranstaltungs GmbH & Co. KG",55 49 41 10,67 04 46 56,agentur@artecom-event.de,www.artecom-event.de,"Inspirierende Klänge und Worte rund um den Christlichen Garten, Sondereintritt ganztags 7 €, ermäßigt 3,50 €",,
 108,Marzahn-Hellersdorf,"2. Helene-Weigel-Platz Fest ""Helli lässt grüßen""",Helene-Weigel-Platz,,05.07.2015,05.07.2015,14:00-22:30,"Bezirksamt Marzahn-Hellersdorf von Berlin, Standortmarketing Marzahn-Hellersdorf, Oleg Peters",90293 - 26 22,,Oleg.Peters@ba-mh.verwalt-berlin.de,,,K.A.,Eintritt
-110,Marzahn-Hellersdorf,Berliner HighlandGames,"Gärten der Welt, auf und an der Spiel- und Liegewiese am Windrad, Eisenacher Str. 99",,25.07.2015,26.07.2015,11:00-17:00,"Gärten der Welt, Eisenacher Str. 99, 12685 Berlin",70 09 06-0,70 09 06 70,event@gaerten-der-welt.de,www.gaerten-der-welt.de,"","Sondereintritt (ganztags) 7 €, ermäßigt 3,50 €",Eintritt
+110,Marzahn-Hellersdorf,Berliner HighlandGames,"Gärten der Welt, auf und an der Spiel- und Liegewiese am Windrad, Eisenacher Str. 99",,25.07.2015,26.07.2015,11:00-17:00,"Gärten der Welt, Eisenacher Str. 99, 12685 Berlin",70 09 06-0,70 09 06 70,event@gaerten-der-welt.de,www.gaerten-der-welt.de,"
+","Sondereintritt (ganztags) 7 €, ermäßigt 3,50 €",Eintritt
 112,Marzahn-Hellersdorf,Sultan's Fest im und am Orientalischen Garten,Eisenacher Str. 99,,09.08.2015,09.08.2015,14:00-18:00,"Gärten der Welt, durchführende Agentur: Artecom Veranstaltungs GmbH & Co. KG",55 49 41 10,67 04 46 56,agentur@artecom-berlin.de,www.artecom-event.de,"Der Sultan bittet zum Fest - 10 Jahre Orientalischer Garten, ","Sondereintritt ganztags 7 €, ermäßigt 3,50 €",Bemerkungen Eintritt
 114,Marzahn-Hellersdorf,Viva la musica,"Gärten der Welt, Eisenacher Str. 99",,05.09.2015,05.09.2015,19:30-22:00,"Gärten der Welt, durchführende Agentur: Artecom Veranstaltungs GmbH & Co. KG",55 49 41 10,67 04 46 56,agentur@artecom-event.de,www.artecom-event.de,,"Sitzplätze: Kategorie A: 30,00 €; Kategorie B: 28,00 €; Jahreskartenbesitzer erhalten 50% Rabatt auf die Eintrittspreise 
 
@@ -189,11 +210,13 @@ http://www.oktoberfest-bb.de/oktoberfest-marzahn.html",
 128,Mitte,45. Berliner Frühlingsfest auf dem Zentralen Festplatz,Kurt-Schumacher-Damm 207,,27.03.2015,19.04.2015,"Mo - Sa ab 14:00
 So, Ostermontag ab 12:00
 ","Schaustellerverband Berlin e. V.
-","213 32 90, 213 40",213 40 34,info@svbev.de,www.schaustellerverband-berlin.de,"","Karfreitag geschlossen, mittwochs halbe Preise auf allen Karussells und Bahnen, Eintritt frei",
+","213 32 90, 213 40",213 40 34,info@svbev.de,www.schaustellerverband-berlin.de,"
+","Karfreitag geschlossen, mittwochs halbe Preise auf allen Karussells und Bahnen, Eintritt frei",
 130,Mitte,Ostermarkt auf dem Alexanderplatz,Alexanderplatz,,27.03.2015,12.04.2015,"K.A.
 ",Bergmann Eventgastronomie,"033439/656 43, 03",033439/656 44,info@bergmannevent.de,www.bergmannevent.de,,Eintritt frei,Eintritt
 132,Mitte,23 Nisan Internationales Kinderfest am Brandenburger Tor,Am Brandenburger Tor,,25.04.2015,26.04.2015,"Sa 11:00-22:00
-So 11:00-20:00","23 Nisan Internationales Kinderfest e. V., Tegeler Weg 97, 10589 Berlin",70 60 04 00,70 60 04 02,23nisanbuehne@googlemail.com,www.23nisankinderfest.de,"",,
+So 11:00-20:00","23 Nisan Internationales Kinderfest e. V., Tegeler Weg 97, 10589 Berlin",70 60 04 00,70 60 04 02,23nisanbuehne@googlemail.com,www.23nisankinderfest.de,"
+",,
 134,Mitte,4. Berliner Fest der Kirchen - Aus Freude am Glauben,Alexanderplatz,,12.05.2015,12.05.2015,"K.A.
 ","Kontakt: Ökomenischer Rat Berlin-Brandenburg, Gierkeplatz 2 - 4, 10585 Berlin",342 10 00,10/11/0342,post@oerbb.de,www.oerbb.de,,K.A.,Zeit Eintritt
 136,Mitte,Garmin Velothon Berlin 2015,Zielbereich: Straße des 17. Juni,,31.05.2015,31.05.2015,"K.A.
@@ -206,10 +229,12 @@ So 11:00-17:00","COMPACTTEAM Event - Marketing - Concept GmbH, Mendelssohnstr. 2
 140,Mitte,20. UMWELTFESTIVAL der GRÜNEN LIGA,Am Brandenburger Tor und auf der Straße des 17. Juni,,14.06.2015,14.06.2015,11:00-19:00,"GRÜNE LIGA Berlin, Anke Ortmann",443 39 10,,umweltfestival@grueneliga.de,www.grueneliga-berlin.de,www.umweltfestival.de,K.A.,Eintritt
 142,Mitte,53. Deutsch-Französisches Volksfest auf dem Zentralen Festplatz,Kurt-Schumacher-Damm 207,,19.06.2015,19.07.2015,"Mo - Sa ab 14:00
 So ab 13:00","Schaustellerverband Berlin e. V.
-",213 32 90,213 40 34,info@svbev.de,www.schaustellerverband-berlin.de,"","Eintritt 2 €, Kinder bis 14 Jahre frei",Eintritt
+",213 32 90,213 40 34,info@svbev.de,www.schaustellerverband-berlin.de,"
+","Eintritt 2 €, Kinder bis 14 Jahre frei",Eintritt
 144,Mitte,21. Fête de la Musique,,,21.06.2015,21.06.2015,ab 14:00,Fête Company,+49-30- 417 15 289,,hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Eintritt
 146,Mitte,37. Christopher Street Day Parade 2015,Abschlusskundgebung: Brandenburger Tor,,27.06.2015,27.06.2015,ab 17:00,Berliner Christopher Street Day e. V.,"23 62 86 32, 23 6",23 62 86 34,,www.csd-berlin.de,,Eintritt frei,Eintritt
-148,Mitte,6. HITS4KIDS Sommerfest,Alexanderplatz,,04.07.2015,05.07.2015,11:00-18:00,"HITS4KIDS TOUR Ltd., Herr Brockmeyer",0201/95 97 97 30,,hits4kids.tour.ltd@googlemail.com,www.hits4kids.de,"",Eintritt frei,Eintritt
+148,Mitte,6. HITS4KIDS Sommerfest,Alexanderplatz,,04.07.2015,05.07.2015,11:00-18:00,"HITS4KIDS TOUR Ltd., Herr Brockmeyer",0201/95 97 97 30,,hits4kids.tour.ltd@googlemail.com,www.hits4kids.de,"
+",Eintritt frei,Eintritt
 150,Mitte,ING-DiBa #shutupandplay 2015 - 3on3 Basketball Tournament,Washingtonplatz / Hauptbahnhof,,18.07.2015,19.07.2015,"K.A.
 ",Park & Ride Sports GmbH,0151/70 00 87 79,,info@shutupandplay.eu,www.shutupandplay.eu,,"K.A.
 ",Eintritt Zeit
@@ -221,7 +246,8 @@ alle anderen Tage: 11:00-22:00
 154,Mitte,55. Deutsch-Amerikanisches Volksfest,"Gelände der Heidestraße 30, Berlin-Mitte",,24.07.2015,16.08.2015,"Mo, Di 14:00-22:00
 Mi, Do 14:00-23:00
 Fr, Sa 14:00-23:30
-So 12:00-23:00",Schaustellerbetrieb Thilo-Harry Wollenschlaeger,0163/400 05 00,03322/423 41 39,info@wollenschlaeger-berlin.de,www.deutsch-amerikanisches-volksfest.de,"",Eintritt 2 €,Eintritt
+So 12:00-23:00",Schaustellerbetrieb Thilo-Harry Wollenschlaeger,0163/400 05 00,03322/423 41 39,info@wollenschlaeger-berlin.de,www.deutsch-amerikanisches-volksfest.de,"
+",Eintritt 2 €,Eintritt
 156,Mitte,REWE Family - Das Sommerfest,"Zentraler Festplatz, Kurt-Schumacher-Damm",,08.08.2015,08.08.2015,"K.A.
 ",Kontakt: Zentraler Festplatz Berlin,23 62 72 21,,info@berliner-festplatz.de,www.berliner-festplatz.de,,K.A.,"Zeit Eintritt
 "
@@ -249,7 +275,8 @@ So 12:00-22:00
 ",Wohlthat Entertainment GmbH,247 86 11,247 88 12,info@wohlthat-entertainment.de,www.wohlthat-entertainment.de,,Eintritt frei,Eintritt Zeit
 178,Mitte,Welcome 2016 Silvester am Brandenburger Tor,Straße des 17. Juni,,31.12.2015,31.12.2015,"K.A.
 ",Wohlthat Entertainment GmbH,247 86 11,247 88 12,info@wohlthat-entertainment.de,www.wohlthat-entertainment.de,,Eintritt frei,Eintritt Zeit
-638,Mitte,Kinder- und Familienfest/Maifest mit Infomarkt,Straße des 17. Juni,,01.05.2015,01.05.2015,11:00-19:00,"DGB Region Berlin, Keithstr. 1 - 3, 10787 Berlin",,,,www.berlin.dgb.de,"",eintritt frei,Eintritt Zeit
+638,Mitte,Kinder- und Familienfest/Maifest mit Infomarkt,Straße des 17. Juni,,01.05.2015,01.05.2015,11:00-19:00,"DGB Region Berlin, Keithstr. 1 - 3, 10787 Berlin",,,,www.berlin.dgb.de,"
+",Eintritt frei,Eintritt Zeit
 642,Mitte,3. Nikolai-Festspiele,Nikolaiviertel,10178,29.08.2015,30.08.2015,"Sa 12:00-20:00
 So 10:00-18:00","Nikolaiviertel e. V., c/o fröhlich wohnen, Propststr. 8",463 10 42,46 30 90 96,verein@berlin-nikolaiviertel.com,www.nikolaifestspiele.de,,Eintritt frei,Eintritt
 180,Neukölln,61. Britzer Baumblüte,Parchimer Allee,,01.04.2015,19.04.2015,"Mo - Sa 14:00-22:00
@@ -261,22 +288,28 @@ So und feiertags 14:00-23:00",Schaustellerbetrieb Thilo-Harry Wollenschlaeger,01
 184,Neukölln,Cocomedivale - Fantasyfestival auf Schloss Britz,Alt-Britz 81 - 89,12359,13.06.2015,14.06.2015,"K.A.
 ","Wandertheater Cocolorus Budenzauber, Brauchtumspflege Mecklenburg-Vorpommern e. V.",039826/134 20,039826/134 24,cocolorus@t-online.de,www.cocolorus-diaboli.de,,K.A.,Eintritt Zeit
 186,Neukölln,17. Rudower Frühlingsmeile,Straße Alt-Rudow,12357,09.05.2015,10.05.2015,"K.A.
-",AG Rudow e. V.,0163/676 31 64,033055/212 91,ag-rudow@web.de,www.hier-in-rudow.de,"",K.A.,Eintritt Zeit
+",AG Rudow e. V.,0163/676 31 64,033055/212 91,ag-rudow@web.de,www.hier-in-rudow.de,"
+",K.A.,Eintritt Zeit
 188,Neukölln,"8. Britzer Mühlenfest
 150 Jahre Britzer Mühle",Buckower Damm 130,,06.06.2015,07.06.2015,"Sa 13:00-22:00
 So 10:00-22:00
 So 10:00 Feld-Gottesdienst mit dem Gropius-Chor","Restaurant Britzer Mühle, Britzer Müller Verein e. V., Evangelische Kirchengemeinde Alt-Buckow, AG Sympathisches Buckow, Verein Kinder in Gefahr e. V.",604 18 19,,,www.britzermuehle.de,,Eintritt frei,Eintritt
-190,Neukölln,Feenfest im Britzer Garten im Rhododendronhain,Mohriner Allee/Buckower Damm/Tauernallee/Sangerhauser Weg,,17.05.2015,17.05.2015,14:00-18:00,Grün Berlin Gmbh,70 09 06 80,70 09 06 70,,www.britzer-garten.de,"","Eintritt 3 €, ermäßigt 1,50 €",Eintritt
+190,Neukölln,Feenfest im Britzer Garten im Rhododendronhain,Mohriner Allee/Buckower Damm/Tauernallee/Sangerhauser Weg,,17.05.2015,17.05.2015,14:00-18:00,Grün Berlin Gmbh,70 09 06 80,70 09 06 70,,www.britzer-garten.de,"
+","Eintritt 3 €, ermäßigt 1,50 €",Eintritt
 192,Neukölln,Sommerliches Kiezfest in der Emser Straße,"Schierker Straße zwischen Nogat- und Selkestraße, Berlin-Neukölln",,30.05.2015,30.05.2015,14:00-19:00,Multikultureller Nachbarschaftsgarten Neukölln e. V. in Kooperation mit Hinter der Fassade e. V.,62 98 87 90,629 88 79 10,team@qm-koernerpark.de,,,K.A.,Eintritt
 194,Neukölln,10. Winzerfest im Britzer Garten,"Berlin-Britz, Eingang Sangerhauser Weg",,05.06.2015,07.06.2015,12:00-21:00,PRÄSENTA GmbH,65 76 35 60,65 76 35 69,info@praesenta-berlin.de,www.praesenta-berlin.de,,K.A.,Eintritt
 196,Neukölln,8. Britzer Buschrosenfest,Buschrosensteig,12347,06.06.2015,07.06.2015,"K.A.
-","Jüttner Entertainment, Christian Jüttner",52 64 66 89,52 64 66 90,info@juettner-entertainment.de,"","",Eintritt frei,Eintritt Zeit
+","Jüttner Entertainment, Christian Jüttner",52 64 66 89,52 64 66 90,info@juettner-entertainment.de,"
+","
+",Eintritt frei,Eintritt Zeit
 198,Neukölln,Dorfanger- und Kirchweihfest,an der Dorfkirche Alt-Buckow,,13.06.2015,14.06.2015,"Sa 14:00-20:00
 So 13:00-19:00",Evangelische Kirchengemeinde Alt-Buckow,10/10/0604,605 19 06,buero@dorfkirche.de,www.dorfkirche.de,,K.A.,Eintritt
 200,Neukölln,18. Alt-Buckower Dorfteichfest,Alt-Buckow 2 - 38,,13.06.2015,14.06.2015,"Sa 11:00-21:00
 So 10:00-19:00
-mit Gottesdienst","AG ""Das sympathische Buckow e. V."", Ansprechpartner: Christian Rieth",0179/394 55 14,34 35 98 73,,www.dorfteichfest.de,"",Eintritt frei,Eintritt
-202,Neukölln,Geburtstags- und Sonnenwendfest im Britzer Garten mit großem Abschlussfeuerwerk,"Im gesamten Park, Mohriner Allee/Buckower Damm/Tauernallee/Sangerhauser Weg",,27.06.2015,27.06.2015,13:00-23:00,Grün Berlin GmbH,70 09 06 80,70 09 06 70,,www.britzer-garten.de,"","Eintritt 5 €, ermäßigt 2,50 €",Eintritt
+mit Gottesdienst","AG ""Das sympathische Buckow e. V."", Ansprechpartner: Christian Rieth",0179/394 55 14,34 35 98 73,,www.dorfteichfest.de,"
+",Eintritt frei,Eintritt
+202,Neukölln,Geburtstags- und Sonnenwendfest im Britzer Garten mit großem Abschlussfeuerwerk,"Im gesamten Park, Mohriner Allee/Buckower Damm/Tauernallee/Sangerhauser Weg",,27.06.2015,27.06.2015,13:00-23:00,Grün Berlin GmbH,70 09 06 80,70 09 06 70,,www.britzer-garten.de,"
+","Eintritt 5 €, ermäßigt 2,50 €",Eintritt
 204,Neukölln,21. Fête de la Musique,,,21.06.2015,21.06.2015,14:00-22:00,Fête Company,+49-30- 417 15 289,,hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Eintritt Zeit
 206,Neukölln,15. Britzer Rosenfest,Backbergstraße Ecke Fulhamer Allee direkt am Schloss Britz,,04.07.2015,05.07.2015,"Sa 12:00-22:00
 (DRK Familientag)
@@ -284,18 +317,23 @@ So 10:00-20:00
 (Rosenfest)",DRK KV Müggelspree e. V.,600 99 90,60 09 99 33,info@juettner-entertainment.de,www.jüttner-entertainment.de,,Eintritt frei,Eintritt
 208,Neukölln,"Sommerfest der Musikschule - Tag der offenen Tür -, Gutshof Schloss Britz",Alt-Britz 81,12359,12.07.2015,12.07.2015,"Beginn 10:00
 Ende 18:00",Bezirksamt Neukölln von Berlin - Musikschule Paul Hindemith,902 39 32 66,902 39 35 98,,www.musikschule-paul-hindemith.de,,K.A.,Eintritt
-210,Neukölln,Britz aktiv! - Sport- und Gesundheitsfest im Britzer Garten,Mohriner Allee/Buckower Damm/Tauernallee und Sangerhauser Weg,,12.07.2015,12.07.2015,12:00-18:00,Grün Berlin GmbH,70 09 06 80,70 09 06 70,,www.britzer-garten.de,"","Eintritt 2 €, ermäßigt 1 €",Eintritt
-212,Neukölln,Interkulturelles Ramadanfest-Ramazan Bayrami,Alfred-Scholz-Platz (Karl-Marx-Straße Ecke Ganghofstraße),,19.07.2015,20.07.2015,13:00-22:00,Deutsch-Arabisches Zentrum für Bildung und Integration (DAZ),56 82 66 48,56 82 66 58,daz@ejf.de,www.daz-berlin.info,"",Eintritt frei,Eintritt
+210,Neukölln,Britz aktiv! - Sport- und Gesundheitsfest im Britzer Garten,Mohriner Allee/Buckower Damm/Tauernallee und Sangerhauser Weg,,12.07.2015,12.07.2015,12:00-18:00,Grün Berlin GmbH,70 09 06 80,70 09 06 70,,www.britzer-garten.de,"
+","Eintritt 2 €, ermäßigt 1 €",Eintritt
+212,Neukölln,Interkulturelles Ramadanfest-Ramazan Bayrami,Alfred-Scholz-Platz (Karl-Marx-Straße Ecke Ganghofstraße),,19.07.2015,20.07.2015,13:00-22:00,Deutsch-Arabisches Zentrum für Bildung und Integration (DAZ),56 82 66 48,56 82 66 58,daz@ejf.de,www.daz-berlin.info,"
+",Eintritt frei,Eintritt
 214,Neukölln,20. Buckower Strohballenfest bei Bauer Mette,Buckower Damm/Gerlinger Straße auf freiem Feld,,14.08.2015,16.08.2015,"Fr ab 15:00
 Sa ab 13:00
-So ab 10:00",Ansprechpartner Organisation und Ablauf: Christian Rieth,0179/394 55 14,34 35 98 73,post@bauer-mette.de,www.strohballenfest.de,"",Eintritt frei,Eintritt
+So ab 10:00",Ansprechpartner Organisation und Ablauf: Christian Rieth,0179/394 55 14,34 35 98 73,post@bauer-mette.de,www.strohballenfest.de,"
+",Eintritt frei,Eintritt
 216,Neukölln,Country & Folk Festival 2015,"Gutshof Schloss Britz, Alt-Britz 81",12359,19.09.2015,19.09.2015,13:00-20:00,Bezirksamt Neukölln von Berlin - Musikschule Paul Hindemith,902 39 32 66,902 39 35 98,,www.musikschule-paul-hindemith.de,,K.A.,Eintritt
 218,Neukölln,Rudower Meilenfest,Straße Alt-Rudow,12357,05.09.2015,06.09.2015,"K.A.
-",AG Rudow e. V.,0163/676 31 64,033055/212 91,ag-rudow@web.de,www.hier-in-rudow.de,"",K.A.,Eintritt Zeit
+",AG Rudow e. V.,0163/676 31 64,033055/212 91,ag-rudow@web.de,www.hier-in-rudow.de,"
+",K.A.,Eintritt Zeit
 220,Neukölln,Drehorgelfest im Britzer Garten am Festplatz,Mohriner Allee/Buckower Damm/Tauernallee/Sangerhauser Weg,,06.09.2015,06.09.2015,12:00-18:00,Grün Berlin GmbH,70 09 06 80,70 09 06 70,,www.britzer-garten.de,,"Eintritt 3 €, ermäßigt 1,50 €",Eintritt
 222,Neukölln,Herbstfest an der Dorfkirche Alt-Buckow,,,19.09.2015,19.09.2015,15:00-20:00,Evangelische Kirchengemeinde Alt-Buckow,10/10/0604,605 19 06,buero@dorfkirche.de,www.dorfkirche.de,,K.A.,Eintritt
 224,Neukölln,6. Großes Kürbisfest im Britzer Garten,Mohriner Allee/Buckower Damm/Tauernallee/Sangerhauser Weg,,20.09.2015,20.09.2015,12:00-18:00,Grün Berlin GmbH,70 09 06 80,70 09 06 70,,www.britzer-garten.de,,"Eintritt 3 €, ermäßigt 1,50 €",Eintritt
-226,Neukölln,"""Luftikus"" - Luft-, Flug- und Drachenfest im Britzer Garten",Mohriner Allee/Buckower Damm/Tauernallee/Sangerhauser Weg,,11.10.2015,11.10.2015,11:00-17:00,Grün Berlin GmbH,70 09 06 80,70 09 06 70,,www.britzer-garten.de,"","Eintritt 3 €, ermäßigt 1,50 €, Jahreskartenbesitzer frei",Eintritt
+226,Neukölln,"""Luftikus"" - Luft-, Flug- und Drachenfest im Britzer Garten",Mohriner Allee/Buckower Damm/Tauernallee/Sangerhauser Weg,,11.10.2015,11.10.2015,11:00-17:00,Grün Berlin GmbH,70 09 06 80,70 09 06 70,,www.britzer-garten.de,"
+","Eintritt 3 €, ermäßigt 1,50 €, Jahreskartenbesitzer frei",Eintritt
 634,Neukölln,Familienfest mit Osterfeuer auf dem Milchhof Mendler,"Lettberger Str. 94, Rudow",12355,05.04.2015,05.04.2015,10:00-24:00,Bauer Mendler,663 40 44,,,www.milchhof-mendler.de,,Eintritt frei,Eintritt
 468,Neuruppin,Mai- und Hafenfest,Festgelände am Ruppiner See mit Klosterkirche und Bollwerk,16816,01.05.2015,03.05.2015,"01.05. ab 09:00
 02.05. ab 08:00
@@ -320,7 +358,8 @@ So 10:00-18:00",TKO gGmbH in Kooperation mit dem Verein für Brauchtumspflege Me
 228,Pankow,Frühlingsfest auf dem Kinderbauernhof Pinke-Panke,"Am Bürgerpark 15 - 18, S-Bahnhof Wollankstraße",,22.03.2015,22.03.2015,14:00-18:00,Kinderbauernhof Pinke-Panke,47 55 25 93,40 04 70 03,,www.kinderbauernhof-pinke-panke.de,,K.A.,
 230,Pankow,Kunstfest im Schlosspark Schönhausen,Ossietzkystr. 44/45,13187,13.06.2015,14.06.2015,12:00-22:00,"GESOBAU AG, Kontakt: Frau Solveig Beck",40 73 24 39,40 73 21 01,solveig.beck@gesobau.de,www.gesobau.de,,K.A.,
 232,Pankow,Buchholzer Festtage,Französisch Buchholz,,05.06.2015,07.06.2015,ab Fr 18:00,Schaustellerbetrieb Thilo-Harry Wollenschlaeger,0163/400 05 00,03322/423 41 39,info@wollenschlaeger-berlin.de,www.wollenschlaeger-berlin.de,,K.A.,Uhrzeit
-234,Pankow,21. Fête de la Musique,,,21.06.2015,21.06.2015,,"Fête Company, Wallstr. 15a, 10179 Berlin","",,hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Eintritt
+234,Pankow,21. Fête de la Musique,,,21.06.2015,21.06.2015,,"Fête Company, Wallstr. 15a, 10179 Berlin","
+",,hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Eintritt
 236,Pankow,Parkfest Weissensee,Volksfest im Park am Weißen See an der Großen Seestraße,,10.07.2015,12.07.2015,"Fr 16:00-22:00
 Sa 11:00-23:00
 So 11:00-22:00","Verein für Weißensee e. V., c/o Dirk Stettner",45 97 69 95,77 20 32 18,buergerbuero@dirk-stettner.de,,,K.A.,
@@ -341,7 +380,8 @@ So 11:00-19:00",PRÄSENTA GmbH,65 76 35 60,65 76 35 69,info@praesenta-berlin.de,
 534,Potsdam,"11. Potsdamer Erlebnisnacht ""Potsdam mit allen Sinnen erleben!""",Innenstadt,,25.07.2015,25.07.2015,15:00-01:00,P3 Projekt GmbH,0177/279 02 86,,,www.potsdamer-erlebnisnacht.de,,Eintritt frei,
 536,Potsdam,14. Potsdamer Feuerwerkersinfonie,"Großer Wiesenpark, Volkspark Potsdam",,16.07.2015,17.07.2015,Einlass ab 18:00,"ProPotsdam, Volkspark Potsdam",0331/620 67 77,0331/620 64 29,volkspark@propotsdam.de,www.volkspark-potsdam.de,,"Erwachsene 18 €, Kind 7 - 16 Jahre 10 €",
 568,Potsdam,24. Töpfermarkt Potsdam,im Holländischen Viertel,,05.09.2015,06.09.2015,"Sa 10:00-19:00
-So 11:00-18:00",Quartier Events,"",,QuartierEvents@gmx.de,,,K.A.,
+So 11:00-18:00",Quartier Events,"
+",,QuartierEvents@gmx.de,,,K.A.,
 590,Potsdam,Internationales Drachenfest,"Großer Wiesenpark, Volkspark Potsdam",,19.09.2015,20.09.2015,"13:00-18:00
 ","ProPotsdam, Volkspark Potsdam",0331/620 67 77,0331/620 64 29,volkspark@propotsdam.de,www.volkspark-potsdam.de,,"Eintritt Erwachsene 5 €, Kinder 7 - 16 Jahre 2,50 €, Kinder bis 6 Jahre frei, Familienticket 12 € (Eltern und deren nicht volljährige Kinder)",
 608,Potsdam,10. Historisches Apfelfest im BUGA-Volkspark,"Großer Wiesenpark, Volkspark Potsdam",14469,03.10.2015,04.10.2015,10:00-22:00,"Wandertheater Cocolorus Budenzauber, Brauchtumspflege Mecklenburg-Vorpommern e. V., Dietmar Frick",Ze039826/134 20,039826/134 24,cocolorus@t-online.de,www.cocolorus-diaboli.de,,"Erwachsene 6 Euro, Kinder 7-16 Jahre 3 Euro, Kinder bis 6 Jahre frei.",Eintritt
@@ -353,10 +393,11 @@ So 11:00-18:00",Quartier Events,"",,QuartierEvents@gmx.de,,,K.A.,
 252,Reinickendorf,Kinder- und Familienfest,Dorfaue Alt-Wittenau,,27.06.2015,27.06.2015,13:00-17:30,"Bezirksamt Reinickendorf, Abt. Jugend, Familie und Soziales Region Nord",902 94 60 08,902 94 66 69,Jugendamt-nord@reinickendorf.berlin.de,www.berlin.de/ba-reinickendorf.de,,K.A.,
 254,Reinickendorf,5. Frohnauer Oldtimer-Treffen - Zentrum der Gartenstadt Frohnau,"Zeltinger Platz, Ludolfingerplatz u. a.)",,21.06.2015,21.06.2015,12:00-18:00,"Interessengemeinschaft Frohnauer Geschäfte - IFG, Kontakt: Cornelja Hasler, Kunsthand-Berlin",40 63 70 31,401 74 40,,www.frohnau-berlin.de,,K.A.,
 256,Reinickendorf,Kiezfest auf dem Gelände der Mark-Twain-Grundschule,Auguste-Viktoria-Allee 95,13403,13.06.2015,13.06.2015,14.00 – 18.00 Uhr,"Mark-Twain-Grundschule, Auguste-Viktoria-Allee 95, 13403 Berlin",41 70 95 71,413 68 30,schulleitung@vainmail.de,http://www.twainweb.de,,K.A.,Uhrzeit
-258,Reinickendorf,21. Fête de la Musique,,,21.06.2015,21.06.2015,,"Fête Company, Wallstr. 15a, 10179 Berlin","",,hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Eintritt
-260,Reinickendorf,6. Tegeler Hafenfest,Greenwichpromenade,13507,16.07.2015,19.07.2015,ab Do 15:00,"Catering Company GmbH, Herr Arzig","282 21 84, 0170/222 1220",28 59 81 40,cateringcompany@email.de,www.catering-company-berlin.de,Freitag Abend Höhenfeuerwerk,Eintitt frei,Eintritt
+258,Reinickendorf,21. Fête de la Musique,,,21.06.2015,21.06.2015,,"Fête Company, Wallstr. 15a, 10179 Berlin","
+",,hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Eintritt
+260,Reinickendorf,6. Tegeler Hafenfest,Greenwichpromenade,13507,16.07.2015,19.07.2015,ab Do 15:00,"Catering Company GmbH, Herr Arzig","282 21 84, 0170/222 1220",28 59 81 40,cateringcompany@email.de,www.catering-company-berlin.de,Freitag Abend Höhenfeuerwerk,Eintritt frei,Eintritt
 262,Reinickendorf,4. Schlagerolymp,"Freizeit & Erholungspark Lübars, Quickborner Straße/Alte Fasanerie",,15.08.2015,15.08.2015,"14:00-24:00
-Einlass ab 12:00","Catering Company GmbH, Herr Arzig","282 21 84, 0170/222 1220",28 59 81 40,cateringcompany@email.de,www.catering-company-berlin.de,www.schlagerolymp.de,"24,90 €",Eintitt
+Einlass ab 12:00","Catering Company GmbH, Herr Arzig","282 21 84, 0170/222 1220",28 59 81 40,cateringcompany@email.de,www.catering-company-berlin.de,www.schlagerolymp.de,"24,90 €",Eintritt
 264,Reinickendorf,"5. Pyrotalia 2015 (Feuerwerksshow), Strandbad Lübars",Am Freibad 9,,22.08.2015,22.08.2015,ab 18:00,"Catering Company GmbH, Herr Arzig","282 21 84, 0170/222 1220",28 59 81 40,cateringcompany@email.de,www.catering-company-berlin.de,,ab 15 €,Uhrzeit Eintritt
 266,Reinickendorf,Konzert mit Bernhard Brink & Band,Strandbad Lübars,,28.08.2015,28.08.2015,ab 20:00,"Catering Company GmbH, Herr Arzig","282 21 84, 0170/222 1220",28 59 81 40,cateringcompany@email.de,www.catering-company-berlin.de,,ab 30 €,Uhrzeit Eintritt
 268,Reinickendorf,113. Freie Scholle,Waidmannsluster Damm,,21.08.2015,06.09.2015,"täglich ab 15:00
@@ -365,12 +406,12 @@ Sa, So ab 14:00",Schaustellerverband Berlin e. V.,213 32 90 und 0172/300 6873,21
 272,Reinickendorf,Rock meets Classic,Standbad Lübars,,29.08.2015,29.08.2015,ab 19:00,"Catering Company GmbH, Herr Arzig","282 21 84, 0170/222 1220",28 59 81 40,cateringcompany@email.de,www.catering-company-berlin.de,,27 Euro,Uhrzeit Eintritt
 274,Reinickendorf,11. Kiezfest am Schäfersee,vor dem Haus am See,,08.05.2015,08.05.2015,15:00-19:00,"Bezirksamt Reinickendorf von Berlin, Jugendamt Region Reinickendorf Ost",902 94 60 79,,jugendamt-ost@reinickendorf.berlin.de,,,K.A.,
 276,Reinickendorf,13. KUNST trifft HANDWERK Frohnau - Zentrum der Gartenstadt Frohnau,"Ludolfingerplatz, Zeltinger Platz u. a.",,12.09.2015,13.09.2015,11:00-18:00,"Interessengemeinschaft Frohnauer Geschäfte - IFG, Kontakt: Cornelja Hasler, Kunsthand-Berlin",40 63 70 31,401 74 40,info@kunsthand-berlin.de,www.kunsthand-berlin.de,,Eintritt frei,
-482,Schildow,Viking Games Berlin - 9. Wikingerfest am Kiessee und Vikingmusic - Openair,Schildow,16552,29.05.2015,31.05.2015,K.A.,"Wandertheater Cocolorus Budenzauber, Brauchtumspflege Mecklenburg-Vorpommern e. V., Dietmar Frick",039826/134 20,039826/134 24,cocolorus@t-online.de,www.cocolorus-diaboli.de,"er Eintritt gilt für das ganze Wochenende. Freitag Eintritt frei! (Abendkonzert mit dem Henri Stabel Quartett, Cocolorus Diaboli und Feuershow Araga Mysteria)"," Erwachsene 7 Euro, Kinder (6-14 Jahre) 3 Euro",Eintitt
+482,Schildow,Viking Games Berlin - 9. Wikingerfest am Kiessee und Vikingmusic - Openair,Schildow,16552,29.05.2015,31.05.2015,K.A.,"Wandertheater Cocolorus Budenzauber, Brauchtumspflege Mecklenburg-Vorpommern e. V., Dietmar Frick",039826/134 20,039826/134 24,cocolorus@t-online.de,www.cocolorus-diaboli.de,"Der Eintritt gilt für das ganze Wochenende. Freitag Eintritt frei! (Abendkonzert mit dem Henri Stabel Quartett, Cocolorus Diaboli und Feuershow Araga Mysteria)"," Erwachsene 7 Euro, Kinder (6-14 Jahre) 3 Euro",Eintritt
 434,Schönwalde-Glien,Havelländer Familientag,"MAFZ Erlebnispark Paaren im Glien, Gartenstr. 1, Schönwalde-Glien",14621,18.04.2015,18.04.2015,ab 12:00,"MAFZ Märkische Ausstellungs- und Freizeitzentrum GmbH, Paaren",033230/74 - 0,,,www.mafz.de,,K.A.,
 436,Schönwalde-Glien,Havelländer Liedermarkt,"MAFZ Erlebnispark Paaren im Glien, Gartenstr. 1",14621,28.03.2015,29.03.2015,ab 10:00,"MAFZ Märkische Ausstellungs- und Freizeitzentrum GmbH, Paaren",033230/74 - 0,,,www.fruehling.mafz.de,,K.A.,
 550,Schönwalde-Glien,Brandenburger Pferdesommer,"MAFZ - Erlebnispark Paaren im Glien, Gartenstr. 1",14621,22.08.2015,23.08.2015,ab 10:00,"MAFZ Märkische Ausstellungs- und Freizeitzentrum GmbH, Paaren",033230/74 - 0,,,www.pferdesommer.mafz.de,,K.A.,
 574,Schönwalde-Glien,Brandenburger Erntefest & Kreiserntefest des Havellandes,"MAFZ - Erlebnispark Paaren im Glien, Gartenstr. 1",14621,12.09.2015,12.09.2015,ab 10:00,"Gemeinde Schönwalde-Glien Der Bürgermeister, Schönwalde-Siedlung, Berliner Allee 7, 14621 Schönwalde-Glien",03322/24 84 10,033 22/24 84 40,hauptamt@gemeinde-schoenwalde-glien.de,www.gemeinde-schoenwalde-glien.de,,K.A.,
-580,Schönwalde-Glien,Brandenburger Dorf- und Erntefest,Dorfkern Paaren im Glien,14621,12.09.2015,12.09.2015,K.A.,Gemeinde Schönwalde-Glien,,,,www.schoenwalde-glien.de,,K.A.,Eintitt
+580,Schönwalde-Glien,Brandenburger Dorf- und Erntefest,Dorfkern Paaren im Glien,14621,12.09.2015,12.09.2015,K.A.,Gemeinde Schönwalde-Glien,,,,www.schoenwalde-glien.de,,K.A.,Eintritt
 596,Schönwalde-Glien,PYRO-World-Championat,"MAFZ Erlebnispark Paaren im Glien, Gartenstr. 1",14621,26.09.2015,26.09.2015,ab 16:00,"Pyro Light UG, Kurfürstendamm 124, 10711 Berlin",68 40 88 80,,,www.pyro-championat.de,,"tehplätze: 
 Erwachsener ab 16 Jahre = 13,90 € 
 Kinder bis zum vollendeten 
@@ -412,7 +453,7 @@ Mo 11:00-18:00",Partner für Spandau - Gesellschaft für Bezirksmarketing mbH,36
 298,Spandau,7. Run of Spirit im Evangelischen Johannesstift,Schönwalder Allee 26,13587,25.05.2015,25.05.2015,,Evangelisches Johannesstift,33 60 90,,info@evangelisches-johannesstift.de,www.evangelisches-johannesstift.de,,,
 300,Spandau,Spandauer Kunstbörse,"Altstadt Spandau, Markt",,18.07.2015,18.07.2015,12:00-19:00,"Bezirksamt Spandau von Berlin, Abt. Jugend, Bildung, Kultur und Sport, Durchführung & Koordination: Sozial-kulturelle Netzwerke casa e. V.",382 52 81,,kontakt@casa-ev.de,www.casa-ev.de,,K.A.,
 302,Spandau,Modellflugtage und 10. Kladower Radfestival,Militärhistorisches Museum Flugplatz Berlin-Gatow,14089,13.06.2015,14.06.2015,10:00-18:00,Militärhistorisches Museum Flugplatz Berlin-Gatow,36 87 26 01,,,www.mhm-gatow.de,"Anfahrt und Einlass über ""Am Flugplatz Gatow"" (Museumseingang)",Eintritt frei,
-304,Spandau,21. Fête de la Musique,,,21.06.2015,21.06.2015,,"Fête Company, Wallstr. 15a, 10179 Berlin",,,hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintitt frei,Eintritt
+304,Spandau,21. Fête de la Musique,,,21.06.2015,21.06.2015,,"Fête Company, Wallstr. 15a, 10179 Berlin",,,hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Eintritt
 306,Spandau,Jazz am Hafen,Kladower Hafen / Imchenallee,,03.07.2015,05.07.2015,"Fr 17:00-24:00
 Sa 11:00-24:00
 So 11:00-19:00",Partner für Spandau - Gesellschaft für Bezirksmarketing mbH,36 75 72 61,35 30 23 32,info@partner-fuer-spandau.de,www.partner-fuer-spandau.de,,K.A.,
@@ -479,7 +520,8 @@ So 12:00-20:00",Family & Friends e. V. ,3055521,305 55 21,weinfest@family-and-fr
 So 10:00-20:00","MS-Event-Agentur, Frau Sieg-Heuke",0173/237 88 55,,sieg@ms-event-agentur.com,www.MS-Event-Agentur.com,unter der Schirmherrschaft des Stadtrates Oliver Schworck,K.A.,
 372,Tempelhof-Schöneberg,7. CrelleChorfest - Die Crellestraße gibt den Ton an - Gesang in allen Tonlagen,"Crellestraße, Schöneberg",,06.06.2015,06.06.2015,13:00-19:00,Netzwerk Crelle-Kiez.de,78 71 64 73,,info@crelleton.de,www.crelleton.de,,K.A.,
 374,Tempelhof-Schöneberg,23. Lesbisch-schwules Stadtfest Berlin,Motzstraße/Eisenacher Straße/Fuggerstraße/Kalckreuthstraße/Nollendorfplatz,,20.06.2015,21.06.2015,ab 11:00,Regenbogenfonds e. V.,21 47 35 86,21 47 35 88,info@regenbogenfonds.de,www.regenbogenfonds.de,,Eintritt frei,Eintritt
-376,Tempelhof-Schöneberg,21. Fête de la Musique,,,21.06.2015,21.06.2015,,"Fête Company, Wallstr. 15a, 10179 Berlin","",,hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Eintritt
+376,Tempelhof-Schöneberg,21. Fête de la Musique,,,21.06.2015,21.06.2015,,"Fête Company, Wallstr. 15a, 10179 Berlin","
+",,hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Eintritt
 378,Tempelhof-Schöneberg,TSV Sommer - Sportfest auf dem Gelände der Feuerwache - 125-jähriges Jubiläum,"Vereinsgelände ""Alte Feuerwache"", Alt-Marienfelde 36",,27.06.2015,27.06.2015,14:00-20:00,TSV Marienfelde 1890 e. V.,722 45 46,74 30 59 65,sport@tsv-marienfelde.de,www.tsv-marienfelde.de,,K.A.,
 380,Tempelhof-Schöneberg,32. Rocktreff & Spielfest,Volkspark Mariendorf,,10.07.2015,12.07.2015,12:00 - 18:00,"Catering Company GmbH, Herr Arzig","282 21 84, 0170/222 12 20",28 59 81 40,cateringcompany@email.de,www.catering-company-berlin.de,,Eintritt frei,"Uhrzeit, Eitnritt"
 382,Tempelhof-Schöneberg,43. Jazzfest Rheinstraße!,in Berlin-Schöneberg zwischen Walther-Schreiber-Platz und Kaisereiche,,04.07.2015,05.07.2015,"Sa 10:00-22:00
@@ -492,7 +534,8 @@ So 12:00-20:00",Family & Friends e. V.,305 55 21,305 55 21,weinfest@family-and-f
 388,Tempelhof-Schöneberg,19. Traditionelles Hauptstraßenfest,Berlin-Schöneberg zwischen Kaiser-Wilhelm-Platz und Dominicusstraße,,14.05.2015,17.05.2015,"Sa.-So. 10-22 Uhr, Mo. 10-20 Uhr",Nareyka Event GmbH,229 04 86/87,229 25 00,info@nareyka.de,www.nareyka.de,,Eintritt frei,Uhrezeit Eintritt
 390,Tempelhof-Schöneberg,16. Schöneberger Kürbisfest,"Akazienstraße, Belziger Straße, Berlin-Schöneberg",,03.10.2015,04.10.2015,"Sa 11:00-21:00
 So 10:00-20:00","MS-Event-Agentur, Frau Sieg-Heuke",0173/237 88 55,,sieg@ms-event-agentur.com,www.MS-Event-Agentur.com,unter der Schirmherrschaft der Bezirksbürgermeisterin A. Schöttler von Tempelhof-Schöneberg,K.A.,
-636,Tempelhof-Schöneberg,Israel-Tag,Wittenbergplatz,,24.04.2015,24.04.2015,15:00-18:00,"Deutsch-Israelische Gesellschaft e. V., Arbeitsgemeinschaft Berlin und Potsdam, Auguststr. 80, 10117 Berlin","",,israeltag.berlin@gmail.com,www.digberlin.de,schalom@digberlin.de,Eintritt frei,Eintritt
+636,Tempelhof-Schöneberg,Israel-Tag,Wittenbergplatz,,24.04.2015,24.04.2015,15:00-18:00,"Deutsch-Israelische Gesellschaft e. V., Arbeitsgemeinschaft Berlin und Potsdam, Auguststr. 80, 10117 Berlin","
+",,israeltag.berlin@gmail.com,www.digberlin.de,schalom@digberlin.de,Eintritt frei,Eintritt
 392,Treptow-Köpenick,11. Köpenicker Winzerfrühling,"Altstadt Köpenick, Luisenhain und Schlossinsel",,24.04.2015,26.04.2015,"Fr ab 14:00
 Sa ab 12:00
 So ab 11:00","IG Altstadt Köpenick e. V./Bezirksamt Treptow-Köpenick, Herr Lemaitre",0173/617 25 5,61 67 40 09,info@lemaitre-events.de,www.winzerfest-köpenick.de,,K.A.,
@@ -507,7 +550,8 @@ So ab 11:00","IG Altstadt Köpenick e. V./Bezirksamt Treptow-Köpenick, Herr Lem
 Sa 10:00-22:30 (im Luisenhain bis 24:00)
 So 10:00-20:00","Jüttner Entertainment, Christian Jüttner",52 64 66 89 und 0152/33 90 83 98,52 64 66 90,info@juettner-entertainment.de,www.jüttner-entertainment.de,"ch.juettner@web.de, ",Eintritt frei,
 408,Treptow-Köpenick,19. Kietzer Sommer,Fischerkietz,,20.06.2015,20.06.2015,11:00-23:00,Der Cöpenicker e. V.,65 88 00 94,65 88 00 93,coepenicker@online.de,www.der-coepenicker.de,,K.A.,
-410,Treptow-Köpenick,21. Fête de la Musique,,,21.06.2015,21.06.2015,ab 16:00,"Fête Company, Wallstr. 15a, 10179 Berlin","",,hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Uhrezeit
+410,Treptow-Köpenick,21. Fête de la Musique,,,21.06.2015,21.06.2015,ab 16:00,"Fête Company, Wallstr. 15a, 10179 Berlin","
+",,hallo@fetedelamusique.de,www.fetedelamusique.de,Veranstaltungsorte und Uhrzeiten: siehe gesondertes Verzeichnis,Eintritt frei,Uhrezeit
 412,Treptow-Köpenick,19. Müggelland-Rallye mit MG-Club Berlin - Old-Timer-Show,Start in der Straße zwischen Kirche und Alter Schule,,27.06.2015,27.06.2015,ab 09:00,"Müggelheimer Heimatverein e. V., Herr Belitz",659 86 13,65 94 15 33,Mueggelheimer-heimatverein@gmx.de,www.mueggelheimer-heimatverein.de,Old-Timer Show auf dem Dorfanger ab ca. 15:00,K.A:,
 414,Treptow-Köpenick,Köpenicker Winzersommer,"Altstadt Köpenick, Luisenhain und Schlossinsel",12557,21.08.2015,23.08.2015,"Fr ab 14:00
 Sa ab 12:00

@@ -85,7 +85,7 @@ angular.module('berlinerSchulenApp')
 							school.icon = icons.green;
 							break;
 						default:
-							school.icon = icons.orange;
+							school.icon = icons.red;
 							break;
 					}
 					schoolList.push(school);
