@@ -328,14 +328,12 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             '.htaccess',
-            'config.json',
             'data/events.json',
             'assets/*',
             '{,*/}*.js',
             '{,*/}*.css',
             '{,*/}*.html',
-            '**/*.{eot,svg,ttf,woff,woff2}',
-            'bower_components/angular-i18n/angular-locale_de-de.js'
+            '**/*.{eot,svg,ttf,woff,woff2}'
           ]
         }, {
           expand: true,
@@ -404,8 +402,20 @@ module.exports = function (grunt) {
             to: 'assets/fonts/mdi/fonts/materialdesignicons-webfont'
           }
         ]
-      }
-    }
+      },
+		example2: {
+			src: [
+				'<%= yeoman.dist %>/styles/vendor.css'
+			],
+			dest: '<%= yeoman.dist %>/styles/vendor.css',
+			replacements: [
+				{
+					from: 'fonts/fontawesome-webfont',
+					to: 'assets/fonts/font-awesome/fonts/fontawesome-webfont'
+				}
+			]
+		}
+	}
   });
 
 
