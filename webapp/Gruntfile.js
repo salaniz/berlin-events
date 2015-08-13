@@ -334,7 +334,8 @@ module.exports = function (grunt) {
             '{,*/}*.js',
             '{,*/}*.css',
             '{,*/}*.html',
-            '**/*.{eot,svg,ttf,woff,woff2}'
+            '**/*.{eot,svg,ttf,woff,woff2}',
+            'bower_components/angular-i18n/angular-locale_de-de.js'
           ]
         }, {
           expand: true,
