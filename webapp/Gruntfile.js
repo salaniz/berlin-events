@@ -332,6 +332,7 @@ module.exports = function (grunt) {
             'data/events.json',
             'assets/*',
             '{,*/}*.js',
+            '{,*/}*.css',
             '{,*/}*.html',
             '**/*.{eot,svg,ttf,woff,woff2}'
           ]

@@ -9,9 +9,7 @@
 		"angular-ui-router": "~0.2.13",
 		"angular-material": "~0.8.1",
 		"lumx": "0.3.39",
-		"mdi": "1.0.8-beta",
-		"bootstrap": "3.3.5",
-		"angular-bootstrap": "~0.13.0"
+		"mdi": "1.0.8-beta"
 	},
 	"devDependencies": {
 		"angular-mocks": "1.2.16",
