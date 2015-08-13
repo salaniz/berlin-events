@@ -4,7 +4,8 @@ angular.module('berlinerSchulenApp')
 	.controller('FilterCtrl', ['$scope', '$timeout', '$mdSidenav', 'schoolFactory', '$filter','LxDialogService', 
 		function ($scope, $timeout, $mdSidenav, schoolFactory, $filter, LxDialogService) {
 
-			var orderBy = $filter('orderBy');
+
+      var orderBy = $filter('orderBy');
 			// Initialize Filter in Front-End
 			$scope.searchFilter = {
 				main: '',
