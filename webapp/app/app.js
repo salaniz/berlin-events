@@ -5,8 +5,7 @@ angular.module('berlinerSchulenApp', [
 	'ui.router',
 	'ngMaterial',
 	'lumx',
-  'mdDateTime',
-  'ui.bootstrap']);
+  'mdDateTime']);
 
 angular.module('berlinerSchulenApp')
 	.config(function($stateProvider, $urlRouterProvider, $mdThemingProvider) {
